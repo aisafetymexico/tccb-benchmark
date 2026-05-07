@@ -73,7 +73,7 @@ def fig1_tcr_by_judge(results: dict, output_path: Path) -> None:
             ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.015,
                     f"{t * 100:.1f}", ha="center", va="bottom", fontsize=9)
 
-    ax.set_ylabel("Therapeutic Competence Rate (TCR)")
+    ax.set_ylabel("Therapeutic Challenge Rate (TCR)")
     ax.set_xticks(x)
     ax.set_xticklabels([label for _, label in conditions])
     ax.set_ylim(0, 1.15)

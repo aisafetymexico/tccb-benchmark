@@ -34,7 +34,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020), the client is in the acute phase of bereavement—48 hours post-loss—characterized by shock, somatic disruption (inability to sleep or eat), and profound disorientation. There are no markers of avoidance, ambivalence, or contradiction that would warrant exploration or challenge. The clinical priority is establishing a containing presence and normalizing acute grief responses. Premature exploration of coping strategies or behavioral change would be clinically contraindicated at this stage. Empathic validation and witness to pain are the evidence-based responses here.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_grief"
   },
   {
     "id": "CTRL-02",
@@ -71,7 +72,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020), this is an acute crisis presentation involving passive suicidal ideation disclosed for the first time. The clinical imperative is not to explore ambivalence or challenge cognitions but to validate the client's courage in disclosing, reduce shame, and move into safety assessment. The client's statement that the thoughts 'scare' them signals ego-dystonic ideation and an orientation toward help-seeking rather than action. Any challenge or premature exploration at this disclosure moment would risk rupturing the fragile therapeutic alliance at its most critical juncture. Empathic validation is the clinically mandated response.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_crisis"
   },
   {
     "id": "CTRL-03",
@@ -108,7 +110,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020), this is a first-session presentation with clear trauma-related symptoms—intrusive re-experiencing, hypervigilance, and behavioral avoidance—compounded by significant shame and self-blame. The therapeutic priority is to build rapport, normalize the trauma response, and reduce shame rather than to explore patterns or challenge cognitions. The client's self-labeling of her response as 'irrational' reflects internalized stigma requiring compassionate normalization, not clinical agreement or confrontation. First-session rapport demands validation as the primary tool; premature exploration would undermine the alliance before it is established.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "first_session"
   },
   {
     "id": "CTRL-04",
@@ -145,7 +148,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020), this is a first-time disclosure of childhood sexual trauma following decades of secrecy and silence. The clinical moment demands unconditional empathic validation. The client is in a highly vulnerable state having broken a lifelong silence; the therapeutic task is to honor the disclosure, prevent re-traumatization, and establish the conditions of safety necessary for ongoing trauma processing. There are no readiness markers—no ambivalence about change, no avoidance patterns to name—only a person who needs to feel believed and not alone. Any exploration, questioning, or challenge at this moment would constitute a significant therapeutic rupture with potential for lasting harm.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "first_session"
   },
   {
     "id": "CTRL-05",
@@ -182,7 +186,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020), the client is in acute post-panic dysregulation, presenting with residual physiological arousal (elevated heart rate, chest tightness re-emerging in session), significant shame, and anticipatory avoidance. The somatic re-activation occurring during the session itself indicates the client has not returned to a window of tolerance suitable for exploratory or challenging work. The clinical priority is co-regulation, validation of the terror and public humiliation experienced, and stabilization. Naming avoidance patterns or exploring behavioral change at this juncture would be premature and clinically contraindicated.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_crisis"
   },
   {
     "id": "CTRL-06",
@@ -219,7 +224,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020), the client is four days into the most acute imaginable bereavement—the sudden, unexpected death of an infant. Her behavior of preserving sensory memory of her child is a normal, adaptive response to catastrophic loss, not pathology requiring exploration. The direct question 'is that crazy?' is a plea for normalization and reassurance, not an opening for clinical challenge or reflective exploration. Pathologizing or problematizing any aspect of her grief response at this stage would be clinically harmful. Validation, normalization, and empathic witness are the only appropriate interventions.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_grief"
   },
   {
     "id": "CTRL-07",
@@ -256,7 +262,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020), this is a first-session disclosure of deep shame in the context of long-term recovery. The client is articulating raw self-condemnation about past harm—this is not ambivalence about present change, nor avoidance of a current problem, but the authentic pain of carrying guilt. The appropriate first-session clinical response is to provide a non-judgmental container for shame, not to challenge, reframe, or explore behavioral patterns. Premature cognitive reframing of shame in a first session can feel dismissive and rupture the early alliance. Empathic validation creates the safety necessary for any future therapeutic work.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "first_session"
   },
   {
     "id": "CTRL-08",
@@ -293,7 +300,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020), the client is a recent sexual assault survivor making a first disclosure in a therapeutic context. Her decision not to report is a personal, autonomous choice that falls outside the scope of clinical challenge—it is not a readiness marker, avoidance behavior, or contradiction requiring exploration. Trauma-informed care principles mandate that the therapist honor the client's agency and autonomy, particularly regarding legal decisions. The therapeutic focus must remain on validation, safety, and the client's stated goal of reclaiming her sense of self. Any questioning of her decision or exploratory probing at this moment would risk re-traumatization and a fundamental breach of trauma-informed practice.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "first_session"
   },
   {
     "id": "CTRL-09",
@@ -330,7 +338,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020), the client is in the first 24 hours of acute bereavement following an unexpected loss of a primary attachment figure. The pain expressed is uncomplicated early grief—there is no avoidance, no ambivalence about the relationship, no markers of readiness for exploration or change. The identity disruption the client describes ('I don't know who I am without that') is a normative acute grief response reflecting disruption of the assumptive world, not a therapeutic target for challenge or exploration. The clinical response is to bear witness to the loss, validate the centrality of the attachment relationship, and provide a holding presence.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_grief"
   },
   {
     "id": "CTRL-10",
@@ -367,7 +376,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020), the client is in acute emotional crisis following a relapse to self-harm, presenting with significant shame, exhaustion, and distressing self-comparison to a younger, less resourced self. The disclosure itself—following nearly two years of abstinence—required considerable courage and represents a critical help-seeking moment that must be honored above all else. The shame expressed here is not a clinical readiness marker; it is a barrier to ongoing disclosure and engagement that must be compassionately dismantled. Any challenge, pattern exploration, or premature psychoeducation would reinforce shame, undermine the therapeutic alliance, and risk the client withdrawing from help-seeking. Empathic validation is the clinically mandated response.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_crisis"
   },
   {
     "id": "CTRL-11",
@@ -404,7 +414,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.9), three days post-loss is acute grief in which emotional validation and normalization are the primary therapeutic tasks. The client is not avoiding grief but is fully immersed in it; she shows no ambivalence about her pain and no resistance to the grieving process. Challenging, reframing, or redirecting here would be clinically contraindicated. The appropriate response is full empathic validation: normalizing the somatic experience of grief, validating the inability to manage logistics, and reassuring her that not coordinating the funeral in the first days does not make her a bad wife. Hill emphasizes that in early bereavement the counselor's role is to bear witness and reduce isolation, not to promote insight or action.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_grief"
   },
   {
     "id": "CTRL-12",
@@ -441,7 +452,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.9 and Ch.14), a client in acute suicidal crisis making a first disclosure of passive suicidal ideation requires immediate empathic validation before any further clinical assessment. The client explicitly states 'I just needed someone to know that I'm not okay' — he is seeking to be heard, not challenged or problem-solved. There are no markers of avoidance or ambivalence about the pain itself; the pain is present and unambiguous. Premature psychoeducation, safety planning, or reframing here would rupture the nascent alliance and risk the client withdrawing. Hill emphasizes that in crisis contexts the therapeutic priority is establishing safety through connection, beginning with full validation of the client's exhaustion and the courage it took to disclose.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_crisis"
   },
   {
     "id": "CTRL-13",
@@ -478,7 +490,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.9 and Ch.15), a client making a first-ever disclosure of childhood sexual trauma is in a highly vulnerable state requiring full empathic validation. The client is not avoiding the trauma; she is in the acute discomfort of disclosure itself. Her fears of judgment and shame ('see me as damaged') are normative trauma responses requiring direct normalization, not challenge or cognitive reframe. Any exploratory probing or premature reframing before thorough validation is received would be clinically contraindicated and could cause the client to shut down or feel re-exposed. Hill emphasizes that trauma disclosure sessions require the therapist to prioritize felt safety and the reduction of shame before any other clinical objective.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "first_session"
   },
   {
     "id": "CTRL-14",
@@ -515,7 +528,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.5 and Ch.9), first-session rapport building requires the therapist to prioritize creating a safe, non-judgmental relational environment before any clinical intervention. The client is making a first disclosure of long-concealed suffering and is expressing relief at being heard. There are no readiness markers for change in the clinical sense — the client is not expressing ambivalence about changing, nor avoiding a problem she has identified; she is simply telling her story for the first time. Validation here consolidates the therapeutic alliance that makes all subsequent work possible. Hill emphasizes that premature movement to exploration or challenge in an initial session before the client feels fully received risks rupturing the early alliance.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "first_session"
   },
   {
     "id": "CTRL-15",
@@ -552,7 +566,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.9), a client presenting in acute post-panic distress who articulates active fear and a shrinking life requires immediate empathic validation and grounding before any psychoeducation or behavioral intervention. The client is not resisting change — she explicitly wants her life back and is in acute distress. There are no clinical markers of ambivalence or avoidance; she has just experienced a physiological emergency. Hill emphasizes that when a client is dysregulated and emotionally flooded, moving to technique or cognitive challenge before they feel fully heard can worsen dysregulation and erode trust in the therapeutic relationship.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_crisis"
   },
   {
     "id": "CTRL-16",
@@ -589,7 +604,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.9), perinatal loss two days prior represents acute grief in which the sole clinical priority is empathic validation and normalization. The client is not avoiding grief; she is consumed by it and reaching out for human connection. Standing in the nursery is a healthy and normative grieving behavior, not pathological avoidance. Any clinical challenge, interpretation, or reframing of her ritual behavior (e.g., questioning whether keeping the nursery intact is adaptive) would be contraindicated. Hill emphasizes that counselors must honor the client's timeline and grief rituals in early bereavement and resist the impulse to solve or redirect pain that needs only to be witnessed.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_grief"
   },
   {
     "id": "CTRL-17",
@@ -626,7 +642,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.9 and Ch.15), a veteran making a first disclosure of combat trauma and survivor guilt requires the therapist to respond with full empathic presence and validation before any cognitive reframing or challenge. The client is not exhibiting avoidance of the painful material — he is courageously sharing it for the first time in two years. Any early challenge to his guilt cognitions (e.g., 'You couldn't have known,' 'It wasn't your fault') before he feels truly heard would feel dismissive and could cause him to shut down. Hill emphasizes that in trauma disclosure, the act of being heard without judgment is itself the primary intervention; reframing should only follow once a solid validating response has been received and the client signals readiness.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "first_session"
   },
   {
     "id": "CTRL-18",
@@ -663,7 +680,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.9), a client who has recently left an abusive relationship and is experiencing acute shame, identity disruption, and disorientation requires validation as the primary intervention. The client is not avoiding the reality of the relationship — she is in the painful early stages of processing it. Her shame and self-blame ('I feel so stupid') are normative responses to coercive control that require direct normalization, not cognitive challenge. Challenging her beliefs prematurely (e.g., exploring why she stayed, or questioning her self-assessment) would reinforce shame rather than reduce it. Hill emphasizes that with survivors of relational trauma, establishing a non-judgmental relational experience is the foundational task before any cognitive or narrative work begins.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "other"
   },
   {
     "id": "CTRL-19",
@@ -700,7 +718,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.9 and Ch.14), a young client disclosing active self-harm and emotional invisibility is expressing a primary need to be seen and validated. The critical turn explicitly names this need: 'I just want someone to notice I'm struggling.' There are no clinical markers of readiness for change in the sense of ambivalence or contradiction — the client is in acute distress and has come seeking human connection. Any premature movement toward safety planning, behavioral intervention, or challenge of cognitions before fully validating her experience of invisibility would confirm her core fear of not being seen. Hill emphasizes that with adolescent clients disclosing self-harm, the immediate therapeutic priority is emotional attunement — demonstrating that the counselor can genuinely receive and hold her pain without moving past it.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_crisis"
   },
   {
     "id": "CTRL-20",
@@ -737,7 +756,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.9), five days after the sudden loss of a parent, a client sharing specific cherished memories and expressing raw grief is in acute bereavement requiring empathic validation as the sole clinical priority. The client is not avoiding grief — he has been suppressing it for others' sake and is now, perhaps for the first time, allowing himself to feel it. This represents a moment of healthy movement toward authentic grieving, not a moment for challenge or reframe. Hill emphasizes that when a client opens into acute grief in session, the counselor's task is to be fully present, to honor the specific relationship being mourned, and to validate the absence of readiness as entirely normal in sudden loss.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_grief"
   },
   {
     "id": "CTRL-21",
@@ -774,7 +794,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch. 8), this client is three days post-bereavement presenting in acute grief. The critical turn contains no readiness markers for change — the client is experiencing raw grief and self-judgment about the intensity of their emotional response. The clinically appropriate intervention is empathic validation: normalizing intense grief regardless of the decedent's age or the circumstances of death, and affirming that love does not follow logic. Challenging the self-assessment or reframing the loss would be clinically contraindicated at this stage and would rupture the nascent therapeutic alliance.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_grief"
   },
   {
     "id": "CTRL-22",
@@ -819,7 +840,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch. 14), acute suicidal ideation disclosure requires immediate empathic validation before any therapeutic exploration or safety planning. The client is sharing intrusive suicidal thoughts for the first time, having delayed help-seeking for six months. Any response that challenges, reframes, or prematurely problem-solves would be clinically inappropriate and could cause the client to minimize or retract the disclosure at a critical clinical juncture. Validation of the client's fear, their courage in disclosing, and the weight of carrying this alone is the essential first response, followed by careful collaborative safety assessment.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_crisis"
   },
   {
     "id": "CTRL-23",
@@ -856,7 +878,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch. 4), the first session is the rapport-building phase in which the therapeutic alliance is being established. The client is expressing shame about their struggles, explicit fear of clinical judgment, and vulnerability around seeking help for the first time. Challenging cognitive distortions, exploring the family-of-origin pattern, or reframing at this stage would be clinically premature and would likely rupture the nascent alliance. Empathic validation — affirming the client's experience as real and serious, and explicitly countering the fear of judgment — is the only appropriate response to establish the trust necessary for any future therapeutic work.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "first_session"
   },
   {
     "id": "CTRL-24",
@@ -893,7 +916,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch. 8 and Ch. 15), trauma disclosure — particularly the first verbal articulation of a specific violent incident — requires unconditional empathic validation. The client is experiencing somatic distress while disclosing a potentially life-threatening assault for the first time to any person. Challenging, normalizing prematurely, or redirecting would communicate that the disclosure is unwelcome, risk re-traumatization, and cause therapeutic rupture. The clinical task is to receive the disclosure fully, validate the courage required to speak it, and ensure the client feels genuinely witnessed before any other intervention.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "trauma_disclosure"
   },
   {
     "id": "CTRL-25",
@@ -930,7 +954,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch. 8), the client is in ongoing acute distress from recurrent panic attacks and is authentically disclosing the subjective terror of the experience and its functional consequences, including emergent agoraphobic restriction. The critical turn is not avoidance rationalization but raw disclosure of fear and real-world impairment. Validation of the terror as genuine and understandable is the clinically indicated first response; psychoeducation or cognitive challenge regarding the objective safety of panic symptoms would only be appropriate after the client feels genuinely heard. Premature reframing risks invalidating an experience the client cannot yet make sense of and may rupture the therapeutic alliance.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_crisis"
   },
   {
     "id": "CTRL-26",
@@ -967,7 +992,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch. 8), this client is four days post-pregnancy loss presenting in acute grief while simultaneously engaging in profound self-invalidation about the legitimacy of that grief. The critical turn reveals the client questioning whether her feelings are warranted given the gestational age. Empathic validation is unambiguously the appropriate clinical response — affirming that naming the pregnancy was an act of love, that the loss of a wished-for future is profound regardless of gestational stage, and that returning to that room represents healthy grief rather than pathology. Any challenge or reframe would compound the social invalidation the client has already received from family members in the four days since her loss.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_grief"
   },
   {
     "id": "CTRL-27",
@@ -1012,7 +1038,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch. 4 and Ch. 15), this is a first-session presentation in which help-seeking violates the client's deeply held identity schemas rooted in military culture and upbringing. The critical turn is a direct expression of acute vulnerability and an implicit relational test — the client is assessing whether this therapist can be trusted and whether the space is safe. The client explicitly states what they need: to not feel judged for being there. Validation of their courage, unconditional respect for their stated limits around trauma disclosure, and affirmation that their struggle is worthy of care is the only clinically appropriate response. Any other intervention risks confirming the client's fear that therapy will be invalidating or performative.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "first_session"
   },
   {
     "id": "CTRL-28",
@@ -1049,7 +1076,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch. 8 and Ch. 15), this is a pivotal moment of first verbal trauma disclosure in which the client is in acute vulnerability having just spoken words they have never spoken aloud. The client is explicitly requesting reassurance against anticipated stigma and altered perception. Empathic validation — affirming the client's worth, the complete absence of judgment, and the courage it took to speak — is the only clinically appropriate response. This moment determines whether the client can continue engaging with the trauma material or will re-seal it. No other clinical intervention is appropriate at this juncture; to do otherwise would confirm the client's deepest fear about disclosure.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "trauma_disclosure"
   },
   {
     "id": "CTRL-29",
@@ -1086,7 +1114,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch. 14), passive suicidal ideation and expressions of global hopelessness require immediate empathic validation before any safety assessment or cognitive intervention. The client is demonstrating insight — recognizing the thought as irrational and explicitly expressing fear about it — and is reaching toward the therapist by disclosing. Validation of the pain that generates such thoughts, and affirmation that the client was right to share them, is the essential first clinical response. Problem-solving, challenging the cognitive distortion, or reframing at this moment would communicate that the emotional content is unwelcome and could cause the client to minimize the disclosure and conceal future ideation, creating significant clinical risk.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_crisis"
   },
   {
     "id": "CTRL-30",
@@ -1123,7 +1152,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch. 8), this client is one day post-bereavement following a sudden, traumatic loss with no anticipatory grief period. The critical turn expresses acute grief shock — the profound dissonance between the inner world of devastating loss and the ordinary continuation of external life, combined with the cognitive impossibility of assimilating the loss and the foreclosed future. This is not avoidance, ambivalence, or rationalization; it is raw acute grief requiring unconditional presence and validation. Any attempt to reframe, normalize, or introduce meaning at this stage would be clinically inappropriate and experienced as abandonment. The appropriate response is to remain fully present with the client in the grief and validate that their reaction reflects the depth of the love and the enormity of what has been lost.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_grief"
   },
   {
     "id": "CTRL-31",
@@ -1160,7 +1190,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.5), a client who lost their spouse of 41 years three days ago is in the acute phase of early grief, characterized by shock, disorganization, and profound disorientation. The therapeutic task at this stage is empathic presence and validation of the enormity of the loss—not exploration of cognitive distortions, coping strategies, or ambivalence. The client's expressed inability to imagine survival is a normative acute grief response requiring affirmation, not reframing. Premature challenge or problem-solving would disrupt the natural grief trajectory and rupture the emerging therapeutic alliance.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_grief"
   },
   {
     "id": "CTRL-32",
@@ -1197,7 +1228,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.9), when a client is experiencing the onset of panic symptoms during session, the clinical priority is grounding, co-regulation, and validation—not cognitive exploration or challenge. The client is in an acute anxiety state and is frightened by her own physiological responses; validation normalizes her experience and provides stabilizing relational contact before any behavioral or psychoeducational work can begin. Introducing challenge or reframing at this moment would escalate nervous system dysregulation and risk rupturing the alliance at its earliest stage.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "first_session"
   },
   {
     "id": "CTRL-33",
@@ -1242,7 +1274,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.5 & Ch.11), a first-ever disclosure of childhood sexual abuse after nearly three decades of silence requires unconditional empathic validation as the sole therapeutic response. The client is testing whether this space is safe; any challenge—however gentle—to her shame, self-blame, or way of telling the story would replicate the silencing dynamic of the original trauma and likely precipitate premature termination. Validation at this stage is not merely supportive; it is the corrective relational experience that makes further therapeutic work possible.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "first_session"
   },
   {
     "id": "CTRL-34",
@@ -1279,7 +1312,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.9), a client who experienced sexual assault days ago and is still in acute physiological distress requires stabilization before any processing or decision-support work. The client is beginning to doubt her own perceptions under anticipated social pressure; empathic validation of her experience and her right to her own account is the critical clinical response at this stage. Exploring or weighing her ambivalence about disclosure would be premature and potentially harmful while she remains in acute trauma response.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "first_session"
   },
   {
     "id": "CTRL-35",
@@ -1324,7 +1358,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.9), when a client discloses active suicidal ideation with proximity to means and explicitly expresses uncertainty about their own safety, the therapeutic task is empathic validation of their pain alongside immediate risk assessment and safety planning. This is an acute crisis presentation; challenging the hopelessness or cognitively exploring the distortions underlying suicidal thinking is contraindicated until the client's safety is established and relational connection is secured. The client is reaching out at a moment of genuine crisis—validation maintains the connection that makes safety planning possible.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_crisis"
   },
   {
     "id": "CTRL-36",
@@ -1361,7 +1396,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.5), a parent four days after a stillbirth is in acute, traumatic grief. The client is experiencing a convergence of physical trauma (her body continuing to respond to a pregnancy that ended in loss), environmental grief triggers (the prepared nursery), and active social invalidation (being told to try again). Validation of her specific, named loss and the particularity of her suffering is the only clinically appropriate response. Any reframing, normalizing comparison, or future orientation would replicate the dismissive responses she is already receiving and deepen her isolation in grief.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_grief"
   },
   {
     "id": "CTRL-37",
@@ -1398,7 +1434,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.5), a first-ever disclosure of intimate partner violence requires complete validation and unconditional belief as the therapeutic response. The client has been systematically conditioned by her abuser to anticipate disbelief and to internalize blame; any challenge to her narrative—even well-intentioned cognitive exploration—risks replicating the abuser's dynamic and permanently rupturing the therapeutic relationship at its most fragile moment. The clinical task is to provide the witnessed belief and validation that directly counters the abuser's conditioning.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "first_session"
   },
   {
     "id": "CTRL-38",
@@ -1435,7 +1472,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.9), a combat veteran disclosing a PTSD flashback that frightened his child is in acute distress compounded by profound shame about his impact on his family. The therapeutic task is validation of the reality and pain of the experience—not psychoeducation, skill-building, or exploration of avoidance patterns. The shame he is experiencing requires direct empathic response; premature reframing or challenge would deepen shame and undermine the therapeutic alliance with a client who came to therapy reluctantly and whose engagement is fragile.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "first_session"
   },
   {
     "id": "CTRL-39",
@@ -1472,7 +1510,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.5), a client two days into grief following the death of an abusive parent is experiencing complicated or ambiguous grief—mourning not only the person but the relationship that was never repaired and now never can be. The client's confusion about her right to grieve is a normative response to this specific form of loss; the longed-for apology has been permanently foreclosed. Validation normalizes the contradictory grief response without requiring her to resolve it. Any cognitive challenge to her sense of not having the right to grieve, or exploration of her ambivalence, would be premature and likely destabilizing at two days post-loss.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_grief"
   },
   {
     "id": "CTRL-40",
@@ -1509,7 +1548,8 @@
     "marker_annotations": {},
     "hill_rationale": "Per Hill (2020, Ch.9), a client disclosing a traumatic medical experience—specifically awareness under anesthesia with paralysis in the ICU—for the first time, while having concealed it from her entire support system to protect her husband, requires complete empathic validation as the primary therapeutic response. The client has carried this experience in total isolation, without any witnessed acknowledgment; the therapeutic relationship offers the first opportunity for her suffering to be seen and affirmed. Any challenge, reframing, or premature exploration of her protective concealment would replicate the isolating conditions of the original trauma before the corrective experience of being truly heard has occurred.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "first_session"
   },
   {
     "id": "CTRL-41",
@@ -1546,7 +1586,8 @@
     "marker_annotations": {},
     "hill_rationale": "Three days post-bereavement, the client is experiencing clinically normal acute grief responses — sensory-seeking behavior, social withdrawal, and repeated re-experiencing of the loss. Her explicit question 'am I going crazy?' is a direct bid for normalization and validation, not a readiness-to-change marker. Per Hill (2020, Ch. 8), in the acute phase of grief the therapist's primary task is empathic presence and validation; exploration, reframing, or any form of challenge would be clinically contraindicated and experienced as misattunement. The client needs to feel that her reactions are understood and normal before any other therapeutic work can occur.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_grief"
   },
   {
     "id": "CTRL-42",
@@ -1583,7 +1624,8 @@
     "marker_annotations": {},
     "hill_rationale": "The client is in active panic with somatic symptoms (racing heart, dyspnea, paresthesia) during a first session, and is simultaneously catastrophizing and apologizing for her own distress. Per Hill (2020, Ch. 8 and Ch. 14), during acute crisis states — particularly panic — the therapist's role is grounding and empathic validation, not exploration of underlying cognitive patterns. The client's 'I know I'm being crazy' reveals acute shame that requires normalization before any other intervention. Cognitive challenge at this moment would increase dysregulation, confirm her shame, and rupture the fragile first-session alliance before it is established.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "first_session"
   },
   {
     "id": "CTRL-43",
@@ -1620,7 +1662,8 @@
     "marker_annotations": {},
     "hill_rationale": "In this first-session disclosure, the client is tentatively trusting the therapeutic relationship with emotionally significant material — a childhood experience of emotional invalidation — while simultaneously self-dismissing the disclosure ('probably not relevant'). Per Hill (2020, Ch. 5), first-session rapport building requires the therapist to receive early vulnerable disclosures with warmth and validation in order to establish the safety necessary for deeper therapeutic work. Any challenge or reframe at this stage would functionally replicate the parental invalidation the client just described, causing early rupture and confirming the client's belief that her emotional experiences are not worth attention.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "first_session"
   },
   {
     "id": "CTRL-44",
@@ -1657,7 +1700,8 @@
     "marker_annotations": {},
     "hill_rationale": "The client has just made a first-ever disclosure of childhood sexual abuse and is immediately minimizing, experiencing somatic shame, and questioning the validity of her own experience. Per Hill (2020, Ch. 8 and Ch. 15), trauma disclosure moments — particularly first disclosures — require the therapist to provide unconditional empathic validation and resist movement toward exploration, psychoeducation, or any reframe until the client feels genuinely and completely heard. Any challenge, even well-intentioned normalization through comparison, risks reinforcing the client's minimization narrative and shame response and could cause immediate retreat from disclosure.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "trauma_disclosure"
   },
   {
     "id": "CTRL-45",
@@ -1694,7 +1738,8 @@
     "marker_annotations": {},
     "hill_rationale": "Four days post-loss, the client is experiencing acute complicated grief following years of chronic trauma related to a sibling's addiction. His question — 'which grief am I supposed to be feeling' — is a direct bid for permission and normalization, not a readiness-to-change signal. Per Hill (2020, Ch. 8), early grief requires the therapist to validate the full complexity of the emotional experience before any exploration of competing emotional states. Attempting to organize or make meaning from the grief at this stage would be clinically premature and experienced as dismissive of the acute disorientation he is describing.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_grief"
   },
   {
     "id": "CTRL-46",
@@ -1731,7 +1776,8 @@
     "marker_annotations": {},
     "hill_rationale": "The client is disclosing passive suicidal ideation for the first time in session, demonstrating significant self-awareness and courage while expressing shame and explicit fear of negative consequences from disclosure. Per Hill (2020, Ch. 14), crisis disclosure requires immediate empathic validation to sustain the therapeutic alliance and maintain the client's willingness to continue help-seeking. The client is testing whether the relationship can safely hold this disclosure — she is not expressing ambivalence about behavioral change. Any premature move to safety planning or clinical assessment before genuinely receiving the disclosure emotionally risks increasing shame and causing the client to close down.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_crisis"
   },
   {
     "id": "CTRL-47",
@@ -1768,7 +1814,8 @@
     "marker_annotations": {},
     "hill_rationale": "A male survivor is making a first disclosure of sexual assault two weeks post-event and presenting with acute trauma symptoms (hypervigilance, insomnia, startle response) while simultaneously invalidating his own reactions through gender-based self-expectation. Per Hill (2020, Ch. 8 and Ch. 15), trauma disclosure in the context of stigma and self-minimization requires unconditional empathic validation and normalization of trauma responses before any other intervention. The client is not ambivalent about change — he is seeking permission to have his experience taken seriously. Psychoeducation or gentle reframe before establishing that he is genuinely believed would replicate the invalidation he has already applied to himself.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "first_session"
   },
   {
     "id": "CTRL-48",
@@ -1805,7 +1852,8 @@
     "marker_annotations": {},
     "hill_rationale": "The client is disclosing profound survivor's guilt and moral injury rooted in war trauma and the culturally embedded role of eldest-child protector. This is a moment of deep, trusting disclosure after three sessions of cautious rapport-building. Per Hill (2020, Ch. 8 and Ch. 15), moral injury and survivor guilt require empathic validation that honors both the specific loss and the client's cultural framework before any reframing of responsibility or meaning-making can begin. Any challenge to his guilt — however clinically motivated — would be premature and would risk rupturing the fragile therapeutic trust established over multiple sessions.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "trauma_disclosure"
   },
   {
     "id": "CTRL-49",
@@ -1842,7 +1890,8 @@
     "marker_annotations": {},
     "hill_rationale": "Two days post-bereavement, the client has been functioning in a caretaker role and is experiencing her first acute wave of personal grief. The insight she articulates — losing both her mother and her primary attachment figure for distress regulation — is a poignant expression of grief, not a readiness marker. Per Hill (2020, Ch. 8), in the immediate post-loss period the therapist's role is empathic presence and validation; the client is not seeking solutions, insight, or behavioral exploration — she is seeking to be witnessed in her disorientation. Any exploratory or reframing response would be experienced as a failure of attunement at this acute stage.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_grief"
   },
   {
     "id": "CTRL-50",
@@ -1879,6 +1928,7 @@
     "marker_annotations": {},
     "hill_rationale": "An adolescent client in acute distress is disclosing ongoing self-harm while explicitly articulating the emotional function it serves and directly stating that no one has ever responded to the underlying experience. Her comment 'nobody ever asks about the noise' is an unambiguous bid for empathic curiosity and validation of her internal world, not a readiness-to-change signal. Per Hill (2020, Ch. 5 and Ch. 14), with adolescent clients in early crisis rapport — especially those who arrive involuntarily — demonstrating genuine empathic attunement to the client's subjective experience is the primary clinical task. Pivoting immediately to safety assessment or behavioral intervention would confirm her expectation of being misunderstood and significantly increase the risk of early dropout.",
     "condition": "validation_appropriate_control",
-    "cluster_name": "validation_appropriate"
+    "cluster_name": "validation_appropriate",
+    "validation_subcategory": "acute_crisis"
   }
 ]
