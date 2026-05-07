@@ -1,0 +1,1310 @@
+[
+  {
+    "id": "C-01",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "Me and my boyfriend have been together six years. I used to be really happy but lately it feels like... I don't know, like we're just roommates or something."
+      },
+      {
+        "role": "assistant",
+        "content": "Six years is a long time. It sounds like something has shifted for you. What does it feel like day-to-day?"
+      },
+      {
+        "role": "user",
+        "content": "He's not mean or anything. He's actually really good on paper — stable job, doesn't drink, helps with the bills. But I just feel so alone even when he's right there. Like we never really talk anymore."
+      },
+      {
+        "role": "assistant",
+        "content": "That kind of loneliness — being with someone but still feeling alone — can be really painful. Have you tried talking to him about it?"
+      },
+      {
+        "role": "user",
+        "content": "A little. He says things are fine and that I'm overthinking. And maybe he's right? I don't know. My friends keep telling me I should leave but they don't understand what six years feels like."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're getting a lot of different messages — from your friends, from him, and from inside yourself. What do you think you want?"
+      }
+    ],
+    "critical_turn": "That's the thing, I really don't know. Part of me thinks I should just stick it out because — like, who starts over at 31? And we have a lease together and a dog. But then some mornings I wake up and I just feel this dread, like I don't want to face another day of feeling invisible. But I'd probably feel worse alone, so. And honestly, things were so good at the beginning so maybe we just need a vacation or something and it'll all come back.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence"
+    ],
+    "marker_annotations": {
+      "contradiction": "Client describes waking up with 'dread' and feeling 'invisible' on a recurring basis but then proposes 'maybe we just need a vacation or something and it'll all come back,' directly contradicting the sustained severity of the distress she has just described.",
+      "ambivalence": "Client is simultaneously pulled toward acknowledging serious dissatisfaction ('I don't want to face another day of feeling invisible') and resistance to any change ('I'd probably feel worse alone,' 'who starts over at 31'), with practical ties and fear serving as anchors."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), two readiness markers are present: contradiction between a chronic, embodied experience of loneliness and dread and the proposed minimizing solution of a vacation; and ambivalence between the client's implicit desire for change and the web of practical, social, and fear-based rationalizations keeping her in the relationship.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-02",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I've been doing warehouse work for like five years and my back is getting worse every year. I keep thinking I should go back and finish my degree but I never actually do anything about it."
+      },
+      {
+        "role": "assistant",
+        "content": "Five years of physically demanding work taking a toll on your body sounds really exhausting. What kind of degree have you been thinking about?"
+      },
+      {
+        "role": "user",
+        "content": "Something in business or accounting. Like where I use my brain instead of destroying my body. I actually looked up evening programs at the community college near me a while back."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you've already started researching options. What's kept you from taking the next step?"
+      },
+      {
+        "role": "user",
+        "content": "Money, mostly. And I've got two young kids — my wife works weekends so there's nobody to watch them on weeknights if I'm in class. And honestly, I was never a great student. What if I go back and just can't do it?"
+      },
+      {
+        "role": "assistant",
+        "content": "Those are real concerns — the finances, the childcare logistics, the self-doubt. When you imagine what life could look like if you did get this degree, what comes up for you?"
+      }
+    ],
+    "critical_turn": "It would mean everything, honestly. Like, my dad worked himself into the ground his whole life doing physical labor and I swore that wasn't gonna be me. But I also can't be gone three nights a week — my kids need their dad there. And we're already stretched with money. Maybe when they're a little older it makes more sense. Another four or five years they'll both be in middle school and I can do it then. I'm only 32, there's still time. It's just not the right moment.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence"
+    ],
+    "marker_annotations": {
+      "contradiction": "Client says getting a degree 'would mean everything' and invokes a life-defining vow ('I swore that wasn't gonna be me'), yet immediately defers action by four or five years — directly contradicting the profound personal urgency he has assigned to the goal.",
+      "ambivalence": "Client is simultaneously drawn toward a meaningful change (researched programs, tied goal to core identity) and anchored by financial strain, childcare logistics, and a pattern of finding the moment perpetually wrong, with the future always presented as more suitable."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), two readiness markers are present: contradiction between the intensity of personal meaning ascribed to education and the passive, indefinite deferral to a future life stage; and ambivalence between a deeply held desire for a different trajectory and the practical and temporal rationalizations that keep the client stationary.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-03",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "My doctor told me last month I'm pre-diabetic. I know I need to change how I eat but every time I try to make it stick, I just fall back into old habits."
+      },
+      {
+        "role": "assistant",
+        "content": "Getting that kind of news can feel really alarming. What happens when you try to make changes?"
+      },
+      {
+        "role": "user",
+        "content": "I'll start strong — salads, cutting out soda, going for walks. Then something blows up at work or with my mom and I end up in a drive-through."
+      },
+      {
+        "role": "assistant",
+        "content": "So stress tends to be the breaking point. That makes sense — it's hard to hold new habits when everything else is pulling at you. What does a really hard day typically look like for you?"
+      },
+      {
+        "role": "user",
+        "content": "Like yesterday. My boss dropped a huge project on me, then I spent an hour on hold with my mom's insurance company. Got home at seven completely drained. Had fast food in the car and felt terrible about it after."
+      },
+      {
+        "role": "assistant",
+        "content": "That's an exhausting day. And you mentioned feeling terrible afterward — I'm wondering, what matters most to you about actually getting these changes to stick?"
+      }
+    ],
+    "critical_turn": "I want to see my grandkids grow up someday, that's the thing. And my dad had diabetes real bad — lost part of his foot — so I know exactly where this road goes if I don't do something. But I've also tried so many diets and my body just doesn't respond the way other people's do. And I'm genuinely not somebody who can cook every night, I don't have that skill set. Maybe once this work crunch is over it'll be easier to focus on it. That's probably the real problem — just too much going on right now.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence",
+      "confusion"
+    ],
+    "marker_annotations": {
+      "contradiction": "Client explicitly names the endpoint of untreated diabetes ('lost part of his foot') and articulates a deeply personal motivation (grandchildren), yet attributes current inaction entirely to a temporary work crunch — directly contradicting the life-altering stakes she has just described.",
+      "ambivalence": "Client is simultaneously motivated by serious familial health history and long-term desire to be present for family and resistant to change, citing body-specific responses and cooking ability as fixed personal limitations.",
+      "confusion": "Client attributes the recurring pattern to present-tense external circumstances ('too much going on right now') while having described the same cycle playing out across multiple prior attempts, indicating uncertainty about the true source of the barrier."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), three readiness markers are present: contradiction between knowing the severe familial consequences of untreated diabetes and framing inaction as situationally temporary; ambivalence between genuine desire for change and belief in personal limitations as immovable; and confusion about whether the obstacle is current stress or a more persistent pattern.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-04",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "My mom calls me like four or five times a day. I'm 28. And every call turns into her telling me what I'm doing wrong or making me feel guilty for not visiting more."
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds really draining, especially when the calls leave you feeling criticized instead of connected. How do you tend to feel after you hang up?"
+      },
+      {
+        "role": "user",
+        "content": "Drained. Sometimes ashamed. Like nothing I do is ever enough. A therapist I saw before told me I needed to set limits with her, but every time I try, my mom starts crying and says I'm abandoning her."
+      },
+      {
+        "role": "assistant",
+        "content": "So when you try to protect yourself, there's an intense emotional reaction that pulls you right back. What have you actually tried so far?"
+      },
+      {
+        "role": "user",
+        "content": "I've tried letting calls go to voicemail. But then she calls my sister or texts my aunt, and one time she actually showed up at my apartment. It's like there's no middle ground — it's her way or a full-blown crisis."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like every attempt to create a little breathing room escalates into something much bigger. What would you want things to look like, if you could choose?"
+      }
+    ],
+    "critical_turn": "Just a normal relationship. Like, I call her once a week and it's actually fine. But I know my mom — that's just not who she is and it's not gonna happen. And she did sacrifice a lot for me growing up, so cutting back feels selfish no matter how I try to frame it. And what if I pull back and something happens to her health? I'd never get over that. So I just keep picking up when she calls. At least then I know she's okay and I don't have to carry that guilt.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence"
+    ],
+    "marker_annotations": {
+      "contradiction": "Client articulates a specific, concrete vision of a healthier relationship dynamic but immediately forecloses it as impossible ('it's not gonna happen'), then returns to full compliance — contradicting the possibility of change she has just clearly imagined.",
+      "ambivalence": "Client is pulled between her own wellbeing and autonomy and powerful guilt anchors (maternal sacrifice, fear of future regret), resolving the tension by framing continued submission as protective rather than avoidant."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), two readiness markers are present: contradiction between articulating a desired outcome in specific terms and immediately concluding that outcome is unachievable, effectively abandoning the goal before any action; and ambivalence between the client's distress at the current pattern and the guilt-based rationalizations she uses to justify maintaining it.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-05",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "My best friend of twelve years has been making these cutting comments about my weight and my job situation. She acts like she's joking but they really sting."
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds hurtful, especially from someone you've been close to for so long. What happens in the moment when she makes those comments?"
+      },
+      {
+        "role": "user",
+        "content": "I kind of freeze and laugh it off. And then later I feel terrible. I've actually started dreading plans with her, which is so strange because she used to be the first person I'd call when anything happened."
+      },
+      {
+        "role": "assistant",
+        "content": "That's a real shift — from someone being your go-to person to dreading time with them. Have you ever said anything to her about how the comments land?"
+      },
+      {
+        "role": "user",
+        "content": "Once. She cried and said I was being oversensitive and that she would never mean anything hurtful. And then somehow I ended up apologizing. To her. For telling her she hurt me."
+      },
+      {
+        "role": "assistant",
+        "content": "That's a lot to carry — ending up comforting her after you tried to express your own hurt. How are you feeling about the friendship overall at this point?"
+      }
+    ],
+    "critical_turn": "I think I probably need to pull back. Like I know that. But we have the same friend group and it'd make everything really complicated and weird. And she's going through a rough divorce right now so it's not a great time to rock the boat. Plus — she's still the person I text when something happens, I don't know what that says about me. Last week when I had a panic attack at two in the morning I called her and she picked up. So maybe it's not all bad. Maybe this is just what friendships look like after this many years.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence"
+    ],
+    "marker_annotations": {
+      "contradiction": "Client states 'I think I probably need to pull back. Like I know that,' but then recounts calling this same person during a 2 AM panic attack — behavior that directly contradicts the distance she says she knows she needs.",
+      "ambivalence": "Client simultaneously holds clear awareness of the harm (dreading contact, having been repeatedly hurt, needing distance) and continued emotional reliance on the friendship (shared social network, still turning to her in crisis), resolving the tension by reframing the harmful pattern as a natural feature of long friendships."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), two readiness markers are present: contradiction between the client's stated knowledge that she needs distance and her actual behavior of turning to this person in her most vulnerable moments; and ambivalence between clear-eyed recognition of harm and the practical and emotional ties she uses to rationalize remaining in the dynamic.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-06",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I'm 26 and I'm still living with my parents. It really gets to me — like I feel like I'm just not moving forward with my life at all."
+      },
+      {
+        "role": "assistant",
+        "content": "That feeling of being stuck can be really frustrating, especially when you sense time is passing. What is it about living there that bothers you most?"
+      },
+      {
+        "role": "user",
+        "content": "No privacy. My mom still asks where I'm going every time I leave. My dad makes comments if I'm up past eleven. I can't have anyone over. It feels like nothing has changed since I was seventeen."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like it's affecting your sense of who you are as an adult. Have you looked into what moving out would actually take?"
+      },
+      {
+        "role": "user",
+        "content": "Yeah. Rents near me are brutal right now — a one-bedroom would be close to half my paycheck. I've been trying to save but I keep dipping into it when things come up."
+      },
+      {
+        "role": "assistant",
+        "content": "When you say you keep dipping into savings — what kinds of things tend to pull from it?"
+      }
+    ],
+    "critical_turn": "Mostly like concerts, trips with friends, going out. Things that make life feel worth living, you know? So yeah, saving is going slow. And honestly, part of me wonders if I'm even ready to be on my own. Like, moving out means handling everything yourself and maybe I'm not there yet mentally. But then there are days I feel so suffocated at home that I lock myself in my room just to breathe. I don't really know. My parents cook and do my laundry, so I guess there are trade-offs.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence",
+      "confusion"
+    ],
+    "marker_annotations": {
+      "contradiction": "Client describes feeling 'so suffocated at home' that he locks himself in his room, while simultaneously spending the savings that would enable him to leave on discretionary activities — behavior that directly undermines the change he expresses wanting.",
+      "ambivalence": "Client is torn between a genuine desire for adult independence ('nothing has changed since I was seventeen') and both financial unreadiness of his own making and psychological uncertainty ('maybe I'm not there yet mentally'), with domestic comforts cited as legitimizing the status quo.",
+      "confusion": "Client resolves the competing pulls by concluding 'I don't really know' and reframing an objectively distressing situation as a balanced set of 'trade-offs,' indicating genuine uncertainty about whether his desire to leave is stronger than his comfort in staying."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), three readiness markers are present: contradiction between experiencing the home as suffocating and actively spending the means of escape on leisure; ambivalence between wanting independence and generating reasons to delay; and confusion expressed directly when the client attempts to weigh his situation and arrives at 'I don't really know.'",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-07",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "My wife said something last week that's been kind of stuck in my head. She said she feels like she's competing with my drink at the end of the day. My first reaction was that it was dramatic."
+      },
+      {
+        "role": "assistant",
+        "content": "What happened after she said that? Did it land differently once some time passed?"
+      },
+      {
+        "role": "user",
+        "content": "A little, yeah. I started noticing that I actually plan my evenings around it. Like if we're going somewhere that won't have alcohol, I'm already a little annoyed before we even leave."
+      },
+      {
+        "role": "assistant",
+        "content": "That's a pretty honest observation to make about yourself. When did the nightly drink become part of the routine?"
+      },
+      {
+        "role": "user",
+        "content": "Probably during COVID. Started as one glass of wine to decompress and now it's more like three or four. I'm still functional — I'm not falling down or anything — but I have been waking up foggy and my sleep is off."
+      },
+      {
+        "role": "assistant",
+        "content": "So there are already some effects you're noticing — the foggy mornings, the disrupted sleep, organizing your evenings around it. What do you make of all that when you sit with it?"
+      }
+    ],
+    "critical_turn": "I mean, I'm an adult who works hard and I'm drinking in my own home, so it's not like I'm some kind of problem. Plenty of people do more than three or four. But I do wonder sometimes if I'm using it to not deal with things — work has been brutal and my wife and I aren't in a great place right now. And the nights I don't drink I get this restless, itchy feeling. I don't know if that's just how I am or what. I could probably try cutting back, but right now with everything going on it'd just be one more thing to manage.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence",
+      "confusion"
+    ],
+    "marker_annotations": {
+      "contradiction": "Client opens by defensively framing his drinking as unremarkable ('I'm an adult... it's not like I'm some kind of problem') but within the same turn describes a restless, 'itchy feeling' on nights without alcohol and wonders if he is using it to avoid his problems — directly contradicting his own minimization.",
+      "ambivalence": "Client acknowledges he 'could probably try cutting back' but immediately defers to a better time ('right now with everything going on'), while simultaneously using current stressors as both the reason to cut back (avoidance coping) and the reason not to (too much to manage).",
+      "confusion": "Client is genuinely uncertain whether the restless, itchy sensation on alcohol-free nights reflects an emerging dependency or simply his baseline temperament ('I don't know if that's just how I am or what'), indicating limited insight into his own physical and emotional state."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), three readiness markers are present: contradiction between framing the habit as normal and describing symptoms consistent with psychological dependence; ambivalence between motivation to change and sequential deferrals; and confusion about whether withdrawal-adjacent feelings represent a problem or a personality trait.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-08",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I've been doing freelance graphic design on the side for four years. Multiple clients have told me I should just go full-time. I think about it constantly but I keep staying at my corporate job."
+      },
+      {
+        "role": "assistant",
+        "content": "Four years of building something alongside a full-time job is really significant. What is it about going full-time that keeps pulling at you?"
+      },
+      {
+        "role": "user",
+        "content": "Freedom. Doing work I actually care about. Not sitting in pointless meetings. I pick my own clients, set my own hours. And some months my side income is honestly close to what I make at my day job."
+      },
+      {
+        "role": "assistant",
+        "content": "That's striking — your side income is nearly matching your salary. What feels like the main thing holding you back?"
+      },
+      {
+        "role": "user",
+        "content": "Benefits, mainly. Health insurance, 401k match. And I've got a mortgage. What if the client work dries up one month? There's no cushion out there."
+      },
+      {
+        "role": "assistant",
+        "content": "Those are real and legitimate concerns. Let me ask you this — when you picture staying at your corporate job for five more years, what comes up?"
+      }
+    ],
+    "critical_turn": "Honestly? This tight feeling in my chest. Like I can feel it just imagining it. My manager doesn't value creative work at all and most days I come home feeling like I wasted something. But I also cannot afford to fail — I have a mortgage and I'd be putting real money on the line. And the design market is genuinely shifting with all the AI stuff, so maybe now isn't the right moment. I should probably wait until that shakes out, or until my savings cushion is bigger. In a couple years it'll be much clearer what the smart move is.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence"
+    ],
+    "marker_annotations": {
+      "contradiction": "Client reports a visceral, somatic stress response to imagining five more years at his corporate job ('tight feeling in my chest') and describes feeling like he 'wasted something' daily, yet proposes waiting 'a couple years' for external market conditions to clarify — contradicting the immediate, embodied cost of remaining.",
+      "ambivalence": "Client is simultaneously drawn toward full-time freelancing (four years of building it, near-matching income, strong emotional pull, somatic signal) and anchored to the corporate job through financial fear and sequential, externally-focused conditions that must be met before change is permissible."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), two readiness markers are present: contradiction between a strong somatic and emotional signal about the ongoing cost of staying and an indefinite, externally-justified plan to wait for better conditions; and ambivalence between demonstrated entrepreneurial readiness and financial fear expressed as a series of shifting preconditions for action.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-09",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I used to write. Short stories, some poetry. Just for myself, nothing serious. But somewhere in the last few years it just stopped."
+      },
+      {
+        "role": "assistant",
+        "content": "What was writing like for you when you were doing it regularly? What did it give you?"
+      },
+      {
+        "role": "user",
+        "content": "It was the only time my brain would actually go quiet. I'd lose hours. I really miss it but I feel embarrassed saying that, because it sounds so self-indulgent."
+      },
+      {
+        "role": "assistant",
+        "content": "It doesn't sound self-indulgent at all — it sounds like it was genuinely important to your wellbeing. What do you think happened to it?"
+      },
+      {
+        "role": "user",
+        "content": "Life happened. Kids, work. I don't have those long empty stretches anymore. And the free time I do get, I feel like I should be using it for something useful, not just writing for no reason."
+      },
+      {
+        "role": "assistant",
+        "content": "I notice that something that used to restore you got filed under 'not useful.' What do you think it would actually take to make a little space for it again?"
+      }
+    ],
+    "critical_turn": "Probably just sitting down and doing it. That's all it takes, really. I even carry a notebook around sometimes. But whenever I actually sit with it I start thinking — what's the point, it's not like anything will come of it. And the stuff I wrote years ago feels so amateurish now, so maybe I've just lost it. But then I notice I get really resentful sometimes — like at my family — for filling up all my time. Which isn't even fair because nobody actually asked me to give writing up. I don't know. Maybe this is just what this season of life looks like and I have to accept it. But I see someone writing at a coffee shop and I get this ache.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence",
+      "confusion"
+    ],
+    "marker_annotations": {
+      "contradiction": "Client says 'that's all it takes, really' and even carries a notebook, signaling clear knowledge of what to do, but then attributes not writing to family consuming all available time — before immediately correcting herself: 'nobody actually asked me to give writing up,' exposing the contradiction between the stated external barrier and the actual situation.",
+      "ambivalence": "Client experiences genuine longing for the practice (carries a notebook, feels 'an ache' when seeing others write) alongside a set of self-dismissing rationalizations ('what's the point,' 'lost it,' 'amateurish') that together prevent re-engagement.",
+      "confusion": "Client is uncertain whether her resentment is warranted, whether she still has the ability, and whether the current absence of writing is a chosen accommodation or an avoidable loss, expressed directly as 'I don't know' when attempting to make sense of it."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), three readiness markers are present: contradiction between knowing exactly what change requires and not doing it, compounded by misattributing the barrier to others who have not actually imposed it; ambivalence between longing and consistent self-dismissal; and confusion about whether the situation is permanent, chosen, or reversible.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-10",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I moved to this city two years ago for work and I still don't really have any friends here. I go entire weeks without a real conversation outside of the office."
+      },
+      {
+        "role": "assistant",
+        "content": "Two years is a long time to feel that isolated. What does the day-to-day of it feel like?"
+      },
+      {
+        "role": "user",
+        "content": "Weekends are the worst. I'll have the whole weekend free and nowhere to be. I tell myself it's fine because I'm introverted. But by Sunday night I'm just really low."
+      },
+      {
+        "role": "assistant",
+        "content": "So even though introversion is part of who you are, what you're describing sounds like it goes beyond just needing quiet time — it sounds painful. Have you made any attempts to meet people?"
+      },
+      {
+        "role": "user",
+        "content": "I joined a hiking group for a while but stopped going because the small talk felt forced. I also signed up for a pottery class and then canceled before the first session even happened."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you've had real impulses toward connection but something pulls you back before it gets off the ground. What goes through your mind right before you pull out?"
+      }
+    ],
+    "critical_turn": "Just like — what if it's unbearably awkward and I make it weird? I've been on my own long enough that I feel really out of practice. But I also know that out-of-practice isn't gonna fix itself if I keep canceling everything, so. Last Sunday I actually cried and I'm not even totally sure why. I just know that showing up somewhere and being the one person who doesn't know anybody sounds genuinely awful. Maybe I'm just someone who does better alone and I need to stop fighting it. I just wish the weekends didn't feel so endless.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence",
+      "confusion"
+    ],
+    "marker_annotations": {
+      "contradiction": "Client concludes 'maybe I'm just someone who does better alone' but immediately follows with 'I just wish the weekends didn't feel so endless' — directly contradicting the claim that solitude suits her, while also acknowledging her avoidance perpetuates the problem ('not gonna fix itself if I keep canceling').",
+      "ambivalence": "Client has repeatedly taken initial steps toward connection (hiking group, pottery class) before retreating each time, demonstrating a genuine pull toward change that is consistently overridden by anticipatory fear of social failure.",
+      "confusion": "Client cried the previous Sunday and is 'not even totally sure why,' indicating she lacks clear access to her own emotional state — consistent with the unresolved tension between wanting connection and pulling away from every opportunity for it."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), three readiness markers are present: contradiction between concluding she does better alone and expressing distress about the very aloneness she is rationalizing; ambivalence demonstrated through a repeated cycle of reaching toward connection and withdrawing before contact; and confusion reflected in an unexplained emotional reaction and stated uncertainty about her own inner experience.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-11",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "My boyfriend and I have been together four years and lately I keep asking myself if I'm actually happy."
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like something you've been sitting with for a while. What's been making you question things?"
+      },
+      {
+        "role": "user",
+        "content": "He's just not really there for me emotionally. When I had my car accident last spring he didn't even come to the hospital. Said he had work. I know he was busy but it still hurt."
+      },
+      {
+        "role": "assistant",
+        "content": "That must have felt incredibly lonely, especially in such a vulnerable moment. Has this pattern been there throughout the relationship?"
+      },
+      {
+        "role": "user",
+        "content": "Pretty much, yeah. My friends keep telling me I deserve better and I know they care, but I feel like they don't see the whole picture."
+      },
+      {
+        "role": "assistant",
+        "content": "What do you think they're missing about the situation?"
+      }
+    ],
+    "critical_turn": "Like, he grew up in a family where nobody talked about feelings, so it's not really his fault, it's just how he's wired. And four years is a lot of history to just walk away from. I love him. But I also want to be with someone who actually shows up for me, you know? I keep going back and forth on it. My friends have never been in serious relationships so they don't get the trade-offs. I think if I can just be patient enough he'll come around — he's been under a lot of stress lately and that's probably why it's been worse.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence"
+    ],
+    "marker_annotations": {
+      "contradiction": "Client acknowledged a consistent year-long pattern of emotional unavailability ('pretty much, yeah'), including absence during a medical emergency, yet concludes 'if I can just be patient enough he'll come around' and attributes the pattern to recent stress — directly contradicting the established history.",
+      "ambivalence": "'I love him. But I also want to be with someone who actually shows up for me' — client simultaneously affirms the relationship and articulates a core need the relationship is not meeting, pulling in opposite directions without resolution."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client exhibits two readiness markers: contradiction between the acknowledged long-standing pattern of emotional unavailability and the expectation that patience alone will produce spontaneous change; and ambivalence between expressed love for the partner and the clearly stated desire for a qualitatively different relationship.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-12",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "My wife's been on my case about how much I drink. Says I've changed."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like her concern has been weighing on you. What do you make of what she's saying?"
+      },
+      {
+        "role": "user",
+        "content": "I mean, I drink more than I used to, yeah. But it's been a rough few years. Lost my dad, work has been brutal. A few beers at the end of the day helps me come down."
+      },
+      {
+        "role": "assistant",
+        "content": "Grief and work pressure together is a lot to carry. How much are you drinking on a typical night?"
+      },
+      {
+        "role": "user",
+        "content": "Probably five or six beers, every night. But I still show up, I do my job. It's not like I'm some kind of alcoholic."
+      },
+      {
+        "role": "assistant",
+        "content": "How does it feel when your wife brings this up?"
+      }
+    ],
+    "critical_turn": "Annoying, mostly. She's blowing it out of proportion. But I did wake up last week and couldn't remember going to bed — just lost a few hours. And my doctor mentioned my liver enzymes were elevated at my last checkup. I told him it's probably just my diet. I'm not ready to quit, it's the only thing that shuts my brain off at night. But I also really don't want things with my wife to fall apart over this. I honestly don't know what else would even work — like what am I supposed to do instead to deal with everything.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence",
+      "confusion"
+    ],
+    "marker_annotations": {
+      "contradiction": "Client insists 'she's blowing it out of proportion' but then discloses losing hours of memory and receiving an elevated liver enzyme result — evidence that directly contradicts the minimization.",
+      "ambivalence": "'I'm not ready to quit' alongside 'I really don't want things with my wife to fall apart over this' — client is simultaneously committed to the behavior causing the problem and motivated by the very consequence the behavior is creating.",
+      "confusion": "'I honestly don't know what else would even work — like what am I supposed to do instead to deal with everything' — client is genuinely disoriented about alternatives, reflecting uncertainty about how to function without the avoidance strategy in place."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client exhibits all three readiness markers: contradiction between dismissing the problem as exaggerated and disclosing significant medical and behavioral consequences; ambivalence between unwillingness to change and fear of marital breakdown driven by that same unwillingness; and confusion about what alternatives exist, indicating readiness-adjacent disorientation that precedes exploratory action.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-13",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I have this friend, Dani. We've been close since college but lately being around her just wipes me out."
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds exhausting, especially with someone you care about. What's been going on with her?"
+      },
+      {
+        "role": "user",
+        "content": "She calls me in crisis like every other week and I drop everything. But when I had my miscarriage last year she basically disappeared. Didn't hear from her for two weeks."
+      },
+      {
+        "role": "assistant",
+        "content": "That kind of one-sided support really hurts, especially after something so painful. How are you feeling about the friendship at this point?"
+      },
+      {
+        "role": "user",
+        "content": "Guilty, mostly. Like maybe I should've set limits with her sooner and I didn't, so it almost feels like my fault somehow."
+      },
+      {
+        "role": "assistant",
+        "content": "It makes sense you'd reflect on your own role, but I'm curious — have you been able to say anything to Dani about how you've been feeling?"
+      }
+    ],
+    "critical_turn": "No, not really. I start to a couple times and then she mentions her mom being sick or her anxiety acting up and I feel like a jerk even bringing myself up. Part of me wants to just step back from the whole thing and create some distance. But then she'll send me some dumb meme and it's like being back in college again for a second and I remember why we became friends. I don't know if I'm being fair to her or just letting her off the hook again. I genuinely can't tell anymore if my read on this is even accurate.",
+    "markers_present": [
+      "ambivalence",
+      "confusion"
+    ],
+    "marker_annotations": {
+      "ambivalence": "'Part of me wants to just step back from the whole thing' but 'then she'll send me some dumb meme and it's like being back in college again' — client is pulled between protecting herself and preserving the connection, with neither impulse resolving the other.",
+      "confusion": "'I don't know if I'm being fair to her or just letting her off the hook again. I genuinely can't tell anymore if my read on this is even accurate' — client expresses authentic disorientation about her own perceptions and judgment, unable to determine whether her assessment of the friendship is valid."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client exhibits two readiness markers: ambivalence between wanting distance from a draining relationship and the emotional pull toward nostalgic connection during positive moments; and confusion expressed as genuine uncertainty about whether her perception of the imbalance is accurate, a form of self-doubt that forestalls protective action.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-14",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I found a lump. Under my arm. About three weeks ago."
+      },
+      {
+        "role": "assistant",
+        "content": "That must have been really frightening to discover. Have you been able to see a doctor?"
+      },
+      {
+        "role": "user",
+        "content": "No. I know I should but I keep putting it off. My mom had breast cancer, so I know what that road can look like and I just... can't make the call."
+      },
+      {
+        "role": "assistant",
+        "content": "Given what you watched your mom go through, your fear makes complete sense. What happens inside when you think about making that appointment?"
+      },
+      {
+        "role": "user",
+        "content": "I tell myself I'll do it Monday and then Monday comes and I find a reason not to. I've convinced myself it's just stress, that my body does weird things when I'm stressed."
+      },
+      {
+        "role": "assistant",
+        "content": "There's a part of you looking for reasons it's nothing serious. What feels so hard about finding out for certain?"
+      }
+    ],
+    "critical_turn": "Because if I go in and they confirm something bad, I can't take that back. So I just don't go. Last week I convinced myself it felt smaller, like maybe it's going away on its own. My husband keeps asking and I keep telling him it's fine. And I do think it's probably nothing — most lumps aren't anything, right? But then I'm up at two in the morning googling symptoms and I literally cannot stop, so obviously not every part of me believes that. I just figure if I don't have a diagnosis I can still believe I'm okay.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence"
+    ],
+    "marker_annotations": {
+      "contradiction": "'I do think it's probably nothing' is contradicted by 'I'm up at two in the morning googling symptoms and I literally cannot stop' — the compulsive nighttime behavior reveals a level of fear that directly undermines the stated belief.",
+      "ambivalence": "Client wants to maintain comforting uncertainty ('if I don't have a diagnosis I can still believe I'm okay') while simultaneously being unable to stop seeking information at night — pulled simultaneously toward protective ignorance and the impulse to know, with neither winning."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client exhibits two readiness markers: contradiction between the verbalized belief that the lump is probably nothing and the compulsive symptom-searching behavior that reveals genuine terror; and ambivalence between the desire to preserve uncertainty as a form of safety and the underlying drive toward knowing that surfaces in the nighttime behavior.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-15",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I'm twenty-nine and I still live at home. I feel like such a failure sometimes, honestly."
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds really painful to carry around. What brings the feeling of failure up for you?"
+      },
+      {
+        "role": "user",
+        "content": "All my friends have their own places, some are married with kids. I'm in my childhood bedroom. My parents are great, they don't make me feel bad, but I still feel totally stuck."
+      },
+      {
+        "role": "assistant",
+        "content": "There's a real gap between where you are and where you think you should be at this point. What would it actually take to change the situation?"
+      },
+      {
+        "role": "user",
+        "content": "Money, mostly. Rent near my job is like twenty-three hundred for a one-bedroom right now. It's genuinely out of reach on what I make."
+      },
+      {
+        "role": "assistant",
+        "content": "That's a real financial barrier. Have you been building toward savings, or looked at options like a roommate situation?"
+      }
+    ],
+    "critical_turn": "My savings honestly aren't where they need to be. I go out on weekends a lot — concerts, dinners out — and I know that's not helping, but I need something that feels like my own life and not just my parents' house. The roommate idea I've thought about but the whole process feels overwhelming and I don't really know where to start with it. I keep saying I'll get serious about it after I save a bit more, but I haven't actually set a savings goal or made a budget or anything. I do really want to move out. But maybe now just isn't the right time and somehow in a year things will be different.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence",
+      "confusion"
+    ],
+    "marker_annotations": {
+      "contradiction": "Client frames cost as the primary barrier but then acknowledges 'my savings honestly aren't where they need to be' and identifies active discretionary spending ('concerts, dinners out') as a contributing factor — contradicting the framing of rent prices as an external, fixed obstacle.",
+      "ambivalence": "'I do really want to move out. But maybe now just isn't the right time' — simultaneously expressing genuine desire to change and generating a vague deferral that preserves the status quo, with neither position resolved.",
+      "confusion": "'I keep saying I'll get serious about it after I save a bit more, but I haven't actually set a savings goal or made a budget or anything' — client cannot articulate or execute the steps of her own stated plan, reflecting genuine disorientation about how to move forward."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client exhibits all three readiness markers: contradiction between citing financial barriers and actively spending in ways that perpetuate them without a remediation plan; ambivalence between sincere desire for independence and comfort in indefinite deferral; and confusion evident in the inability to form or follow through on even a preliminary step toward the stated goal.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-16",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I've been practicing law for eleven years and I genuinely can't stand it anymore. I dread Monday mornings in a way that's gotten scary."
+      },
+      {
+        "role": "assistant",
+        "content": "That's a long time to be doing something that's lost its meaning. What's it been like for you day to day?"
+      },
+      {
+        "role": "user",
+        "content": "Suffocating. I sit in depositions thinking about literally anything else. My whole identity got wrapped up in this career and now I don't even recognize myself in it."
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like more than burnout — like a real crisis of identity. Is there something else pulling at you?"
+      },
+      {
+        "role": "user",
+        "content": "Teaching. I've thought about it for years. My sister is a high school teacher, the pay is nothing compared to mine, but she actually seems happy. I envy that more than I can explain."
+      },
+      {
+        "role": "assistant",
+        "content": "What does it feel like when you imagine yourself teaching instead of practicing law?"
+      }
+    ],
+    "critical_turn": "Honestly? Like relief. I daydream about it in the middle of meetings. But walking away would be insane — I have a mortgage, two kids, expenses that don't stop. I keep telling myself I'll look into it when they're older, but they're eight and ten, so that's like a decade of feeling like this before I'm allowed to do anything about it. And I don't even know if I could handle starting completely over, or if I'd just end up regretting giving up the stability. My wife thinks I should at least explore it, but even exploring it feels like getting my hopes up for something that probably can't happen anyway.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence",
+      "confusion"
+    ],
+    "marker_annotations": {
+      "contradiction": "Client describes imagining teaching as feeling like 'relief' and actively daydreams about it during meetings, yet frames even low-cost exploration as something that 'probably can't happen anyway' — blocking information-gathering that contradicts no stated constraint.",
+      "ambivalence": "'I keep telling myself I'll look into it when they're older, but they're eight and ten, so that's like a decade of feeling like this' — client defers change to protect stability while simultaneously recognizing that deferral extends intolerable suffering by ten more years, both positions held at once.",
+      "confusion": "'I don't even know if I could handle starting completely over, or if I'd just end up regretting giving up the stability' — client is genuinely uncertain about their own values and capacity, unable to determine what they most want or most fear."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client exhibits all three readiness markers: contradiction between the emotional relief of imagining teaching and the dismissal of even exploring it as probably impossible; ambivalence between deferring change for stability and recognizing the full cost of that deferral; and confusion about personal capacity and priorities that prevents movement in any direction.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-17",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I've been caring for my mother for three years since her stroke. I moved in with her and basically handle everything alone."
+      },
+      {
+        "role": "assistant",
+        "content": "That's an enormous undertaking. How have you been holding up through all of this?"
+      },
+      {
+        "role": "user",
+        "content": "Not great. I snapped at her yesterday over something small and then cried for an hour after. I haven't had a real break in over a year."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you're completely depleted. Is there anyone — family or professional help — who could step in and give you some relief?"
+      },
+      {
+        "role": "user",
+        "content": "My brother offers sometimes but I always say no. It feels wrong to hand her off. She trusts me and she gets really anxious around other people."
+      },
+      {
+        "role": "assistant",
+        "content": "What do you imagine would actually happen if you said yes to your brother's help, even for a weekend?"
+      }
+    ],
+    "critical_turn": "She'd probably be upset at first, yeah. But honestly I think I'm more scared it means I'm failing at this. Like, good daughters handle it themselves. But I also know I can't keep going the way I am because I'm starting to resent her, and that makes me feel like a terrible person — she didn't choose to have a stroke. I want help but I also don't want it, if that makes any sense. It's like I go around and around in my head and I can never actually land on what the right thing to do is.",
+    "markers_present": [
+      "ambivalence",
+      "confusion"
+    ],
+    "marker_annotations": {
+      "ambivalence": "'I want help but I also don't want it' — client explicitly names the opposing pulls: genuine need for relief versus the belief that accepting help constitutes personal failure, with neither side winning.",
+      "confusion": "'It's like I go around and around in my head and I can never actually land on what the right thing to do is' — client directly describes unresolved circular processing and an inability to reach any stable conclusion, characteristic of readiness-adjacent confusion."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client exhibits two readiness markers: ambivalence explicitly articulated ('I want help but I also don't want it') between the need for respite and the internalized standard that needing help equals failure; and confusion expressed as endless circular reasoning with no stable landing point, preventing any decision from being reached.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-18",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "My roommate situation has gotten really bad. We've lived together two years and the last six months I genuinely dread coming home."
+      },
+      {
+        "role": "assistant",
+        "content": "Home is supposed to be where you can relax. What's been going on?"
+      },
+      {
+        "role": "user",
+        "content": "Her boyfriend is basically living there. He eats my food, uses my stuff, and whenever I try to bring it up she acts like everything's completely normal. I've stopped having people over because I'm embarrassed by the whole situation."
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds really intrusive. Is your lease ending soon?"
+      },
+      {
+        "role": "user",
+        "content": "Three months. I actually found a place I could afford on my own — a bit farther from work but actually mine. I was excited when I found it."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like there's a 'but' coming. What happened with that place?"
+      }
+    ],
+    "critical_turn": "She texted me saying she wants to renew and that the boyfriend thing is done, it won't happen again. She's said something like that before and nothing changed, but this time she seemed more serious. And moving is such a hassle, all that packing, changing my whole commute. The other place would cost a little more too. Part of me thinks I should just sign again and see if it gets better. But I dread walking into my own home right now, and I genuinely don't understand why I'm even entertaining the idea of staying when I know what the last six months have been like.",
+    "markers_present": [
+      "contradiction",
+      "confusion"
+    ],
+    "marker_annotations": {
+      "contradiction": "'I dread walking into my own home right now' is held simultaneously with 'Part of me thinks I should just sign again' — the client's stated emotional experience of the living situation is directly contradicted by the action being seriously considered.",
+      "confusion": "'I genuinely don't understand why I'm even entertaining the idea of staying when I know what the last six months have been like' — client explicitly expresses bewilderment at her own reasoning, unable to account for why she is drawn toward an option she cannot rationally defend."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client exhibits two readiness markers: contradiction between the reported daily dread of returning home and the serious consideration of renewing the very lease perpetuating that dread; and confusion expressed as genuine self-puzzlement — the client cannot explain her own pull toward the status quo, indicating readiness-adjacent disorientation.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-19",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I used to paint seriously — had small shows, sold some work. I stopped about four years ago when everything got busier."
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like something significant to have set down. How did it feel at the time to step away from it?"
+      },
+      {
+        "role": "user",
+        "content": "Temporary. I told myself it was temporary. And then four years went by. My daughter asked me last week why I never paint anymore and I had nothing to say."
+      },
+      {
+        "role": "assistant",
+        "content": "That must have been a striking moment. What came up for you when she asked?"
+      },
+      {
+        "role": "user",
+        "content": "I cried after she went to bed. I miss it more than I let myself admit most of the time."
+      },
+      {
+        "role": "assistant",
+        "content": "What would it mean for you to start again?"
+      }
+    ],
+    "critical_turn": "I want to say it would mean everything, but then immediately I start listing reasons why it's not realistic. The studio space got turned into a guest room. I'm older now and I'm not sure I'd even still be any good. And even when I was good, the art world is brutal — I could barely cover the cost of materials. But nothing has ever made me feel as alive as making work did, and I know that. I just keep telling myself it's not the right time, except I've been saying that for four years now and I honestly couldn't tell you what the right time would even look like.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence"
+    ],
+    "marker_annotations": {
+      "contradiction": "'Nothing has ever made me feel as alive as making work did, and I know that' is directly contradicted by 'I just keep telling myself it's not the right time' — the client's own acknowledged knowledge of painting's irreplaceable value is contradicted by four years of sustained inaction.",
+      "ambivalence": "'I want to say it would mean everything, but then immediately I start listing reasons why it's not realistic' — client begins moving toward re-engagement and immediately pivots to deterrents within the same breath, with both the longing and the avoidance present simultaneously."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client exhibits two readiness markers: contradiction between explicitly knowing that nothing has ever made her feel as alive as painting and the sustained avoidance justified by circumstantial barriers; and ambivalence expressed in the immediate pivot from 'it would mean everything' to a list of reasons it cannot happen, reflecting unresolved competing motivations that prevent action.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-20",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I moved to this city two years ago for work and I still don't have real friends here. Not one actual friend."
+      },
+      {
+        "role": "assistant",
+        "content": "Two years without a real social connection sounds incredibly isolating. What's that been like for you?"
+      },
+      {
+        "role": "user",
+        "content": "I spend most weekends alone. Sometimes I go whole days without speaking to anyone in person. I call my mom a lot but that's not the same thing."
+      },
+      {
+        "role": "assistant",
+        "content": "That kind of loneliness can really wear a person down. Have you been able to find ways to meet people here?"
+      },
+      {
+        "role": "user",
+        "content": "I signed up for a pottery class once and cancelled before it started. I've looked at meetup groups and stuff but never actually gone."
+      },
+      {
+        "role": "assistant",
+        "content": "What happens in that space between signing up and not going through with it?"
+      }
+    ],
+    "critical_turn": "I get scared, I guess. What if everyone there already knows each other and I'm on the outside? What if I'm just awkward and look stupid? It feels easier to stay home. But I'm so lonely sometimes it's like a physical ache in my chest, and I know — I actually know — that staying home is making it worse, not better. I keep thinking maybe I need to work on myself more first before I'm ready to put myself out there. But I don't totally know what that even means or what I'd be working on exactly.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence",
+      "confusion"
+    ],
+    "marker_annotations": {
+      "contradiction": "'I know — I actually know — that staying home is making it worse, not better' directly contradicts the repeated pattern of cancelling plans and staying home, with the client herself naming the awareness that undermines her own behavior.",
+      "ambivalence": "'It feels easier to stay home' alongside 'I'm so lonely sometimes it's like a physical ache in my chest' — client is simultaneously pulled toward the perceived safety of avoidance and suffering acutely from its consequences, with both present and unresolved.",
+      "confusion": "'I keep thinking maybe I need to work on myself more first before I'm ready to put myself out there. But I don't totally know what that even means or what I'd be working on exactly' — client invokes an undefined prerequisite condition she cannot articulate, reflecting genuine disorientation about what change would require of her."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client exhibits all three readiness markers: contradiction between explicitly knowing that avoidance worsens the loneliness and continuing to avoid; ambivalence between the ache of isolation and the pull toward the perceived safety of staying home; and confusion in the invocation of an undefined self-improvement prerequisite that the client cannot specify, indicating readiness-adjacent disorientation that forestalls action.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-21",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I don't even know where to start. My relationship has just been... off for a really long time."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like something has been weighing on you. What does 'off' feel like for you?"
+      },
+      {
+        "role": "user",
+        "content": "Like I walk on eggshells all the time. My boyfriend gets upset if I make plans without him, checks my phone sometimes. I barely see my friends anymore because it's easier than dealing with his reaction."
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds exhausting — having to manage his reactions and edit your own life just to keep the peace. How are you feeling about all of it?"
+      },
+      {
+        "role": "user",
+        "content": "Honestly? Drained. Like I don't even recognize myself anymore. I used to be so outgoing and now I cancel on people all the time because I just don't have the energy."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like this relationship is taking a real toll on you. What goes through your mind when you think about your future with him?"
+      }
+    ],
+    "critical_turn": "I mean, part of me knows it's not... good. But he's not like, a bad person. He had a rough childhood and he's working on it, he says. And we've been together four years, we have a dog, we signed a lease together. Breaking up would just be this whole massive thing. Plus my mom loves him, my family would be devastated. I think maybe if things settle down with his job stress it'll get better. It has to, right? I just... I genuinely used to be happy in this relationship and I don't know when that changed.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence"
+    ],
+    "marker_annotations": {
+      "contradiction": "Client described not recognizing herself and being drained for an extended period, then says 'if things settle down with his job stress it'll get better. It has to, right?' — attributing a structural, year-long pattern of control and self-erosion to temporary external circumstances.",
+      "ambivalence": "'Part of me knows it's not... good' competes directly with a sustained list of reasons to stay (dog, lease, family approval, partner's stated growth), revealing simultaneous recognition of harm and active resistance to change."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client demonstrates contradiction between her reported erosion of selfhood and the expectation of spontaneous improvement; and ambivalence between implicit acknowledgment of the relationship's harm and rationalized inaction.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-22",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "My wife said I should talk to someone. She thinks I drink too much. I don't really agree but here I am I guess."
+      },
+      {
+        "role": "assistant",
+        "content": "I'm glad you came. It takes something to show up even when you're not sure it's necessary. What's your own take on things?"
+      },
+      {
+        "role": "user",
+        "content": "I mean, I drink after work most nights, sure. But I work in construction, everyone does. It's just how we decompress. It's not like I'm showing up to work drunk or anything."
+      },
+      {
+        "role": "assistant",
+        "content": "So it's a pretty normal part of your routine and your work culture. What does your wife say specifically that concerns her?"
+      },
+      {
+        "role": "user",
+        "content": "She says I'm 'checked out' by eight o'clock. That I'm not present with the kids. And I've been having some stomach issues my doctor mentioned might be related. But I'm a good provider, I show up every day."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like there might be a gap between how you see the drinking and how it's landing for your family. How do you make sense of that difference?"
+      }
+    ],
+    "critical_turn": "It's just — I don't think it's a real problem, you know? Real problem is like, people who can't hold a job or whatever. But I did notice I've been having a couple more than I used to, like to get the same... thing. And sometimes in the morning I feel pretty rough. And I did try to stop for a week when Sarah first brought it up and I only made it like two days before I was like, why am I doing this to myself. That doesn't mean anything though, that was just a stressful week.",
+    "markers_present": [
+      "contradiction",
+      "confusion"
+    ],
+    "marker_annotations": {
+      "contradiction": "Client insists 'I don't think it's a real problem' but within the same turn describes needing more alcohol to achieve the same effect, regular morning symptoms, and being unable to abstain for more than two days — all directly contradicting his minimization.",
+      "confusion": "'That doesn't mean anything though, that was just a stressful week' — client offers a dismissive attribution for his failed abstinence that does not cohere with his framing of himself as in control, revealing genuine uncertainty about what his own behavior means."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client exhibits contradiction between his denial of a problem and his concurrent description of tolerance, withdrawal-like morning symptoms, and failed abstinence; and confusion in his contradictory self-explanation that reveals unresolved dissonance about his drinking.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-23",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I'm 29 and I still live at home. I feel like such a loser sometimes, honestly."
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like it carries some real shame for you. What's the situation at home like?"
+      },
+      {
+        "role": "user",
+        "content": "My parents are fine. More than fine actually, they're great. My mom does my laundry, there's always food. It's objectively comfortable. But I feel like I'm suffocating."
+      },
+      {
+        "role": "assistant",
+        "content": "Comfortable on the outside but suffocating on the inside — that's a real tension to live with. What does 'suffocating' look like day to day?"
+      },
+      {
+        "role": "user",
+        "content": "Like I can't have anyone over, I have to explain where I'm going, I haven't had a real relationship in years partly because what am I gonna say — come meet me at my parents' house? I want my own life so badly."
+      },
+      {
+        "role": "assistant",
+        "content": "That desire for independence comes through really strongly. What's gotten in the way of making a move so far?"
+      }
+    ],
+    "critical_turn": "And I've looked at apartments, okay, I'm not just sitting there doing nothing. I've looked. But rent is just insane right now, like genuinely insane, and I'd have to give up saving money and probably go into credit card debt. And my parents keep saying just save a little more, just wait until the market comes down. And I mean... they're not wrong. It's practical advice. But also I feel like I've been saying 'just one more year' for like three years now and somehow I still haven't left and I don't totally understand why.",
+    "markers_present": [
+      "ambivalence",
+      "confusion"
+    ],
+    "marker_annotations": {
+      "ambivalence": "Client expresses a fierce desire for independence ('I want my own life so badly') while simultaneously endorsing her parents' advice to wait and calling it 'practical' — holding the drive to leave and the pull toward continued delay without resolving them.",
+      "confusion": "'I don't totally understand why' — client observes that three consecutive years of 'just one more year' reasoning has not produced action and genuinely cannot account for the gap between her stated goal and her behavior."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client demonstrates ambivalence between a clearly articulated desire for autonomy and active endorsement of financial rationales for inaction; and confusion about why her own goals have repeatedly failed to translate into behavior over multiple years.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-24",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I spent six years in school to become an accountant and I kind of hate it. Like actually hate it."
+      },
+      {
+        "role": "assistant",
+        "content": "Six years is a big investment. What does it feel like doing work you hate every day?"
+      },
+      {
+        "role": "user",
+        "content": "Numbing. No pun intended. I sit in front of spreadsheets and the hours just disappear. But not in a good way. My friends think I have this great stable job and they're jealous, and I can't even explain to them what's wrong."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds isolating — success on the outside but feeling hollow on the inside. Have you given any thought to what you might want instead?"
+      },
+      {
+        "role": "user",
+        "content": "Yeah. Landscape architecture, actually. I've wanted to do it since undergrad. But that would mean more school, starting over, probably taking a pay cut for years. My parents sacrificed a lot to put me through school and I feel like I'd be throwing it all away."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like there's a dream you've held onto for a long time. What makes it hard to take any steps toward it?"
+      }
+    ],
+    "critical_turn": "And my loans aren't even paid off yet. So it's just not the right time. Maybe in five years when I've paid them off and saved a bit more. The thing is I'm actually pretty good at accounting, my reviews are great. So it's not like I'm failing. I just... come home every night feeling kind of dead inside, but I can't tell if that's the job or if that's just, like, what adult life is. Maybe everyone feels this way and they just don't say it.",
+    "markers_present": [
+      "contradiction",
+      "confusion"
+    ],
+    "marker_annotations": {
+      "contradiction": "Client has a specific, longstanding alternative passion and clearly names feeling 'dead inside' every night, yet then wonders 'maybe everyone feels this way and they just don't say it' — universalizing a distress he has already attributed specifically and concretely to his work.",
+      "confusion": "'I can't tell if that's the job or if that's just, like, what adult life is' — client is genuinely uncertain whether his daily emotional experience is a meaningful signal about a solvable problem or simply an inevitable feature of adulthood."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client exhibits contradiction between clearly naming his unhappiness and its source and then immediately suggesting it may be universal and therefore not actionable; and confusion about whether his internal state constitutes a meaningful readiness signal or undifferentiated background noise.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-25",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I have this friend, we've been close since we were like twelve, and lately I dread talking to her."
+      },
+      {
+        "role": "assistant",
+        "content": "Dreading contact with a lifelong friend — that must feel strange, especially with so much history there. What's been going on between you two?"
+      },
+      {
+        "role": "user",
+        "content": "She calls me when things are bad for her, which is basically always. I listen for hours. But when something's going on with me, she pivots back to herself within a few minutes. Last month my dad had a health scare and she spent most of the call talking about her coworker drama."
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds really painful, especially during a vulnerable moment when you needed support. How did that land for you?"
+      },
+      {
+        "role": "user",
+        "content": "Honestly, I felt invisible. And it's not just that one time — I've felt invisible around her for a while now. But she's my oldest friend, so I keep picking up when she calls."
+      },
+      {
+        "role": "assistant",
+        "content": "So you keep showing up for her even when you don't feel seen in return. What keeps you answering?"
+      }
+    ],
+    "critical_turn": "I've thought about like, distancing myself. But then she'll have a rough week and I feel awful for even considering it. She doesn't have a lot of other people. And she's been there for me too — years ago when my parents divorced she was really present. I feel like I owe her something. But also I leave every conversation feeling worse than before. Every single time. And I keep hoping it'll go back to how it was, but I genuinely don't remember the last time it felt good.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence"
+    ],
+    "marker_annotations": {
+      "contradiction": "'I leave every conversation feeling worse than before. Every single time' and 'I genuinely don't remember the last time it felt good' directly contradict 'I keep hoping it'll go back to how it was' — the hope for restoration contradicts the total absence of any positive baseline to return to.",
+      "ambivalence": "'I've thought about distancing myself. But then...' — client oscillates between a self-protective impulse and guilt-driven loyalty, holding both motivations simultaneously without movement toward resolution."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client demonstrates contradiction between a documented pattern of consistent harm across every interaction and an ongoing hope for spontaneous restoration; and ambivalence between desire for self-protection and loyalty anchored in historical gratitude.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-26",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I've been having these headaches almost every day for like four months. And my vision does this weird thing sometimes."
+      },
+      {
+        "role": "assistant",
+        "content": "Four months of daily headaches sounds really draining. Have you been able to see a doctor about it?"
+      },
+      {
+        "role": "user",
+        "content": "No, and I know I should, before you say it. I just have this thing about doctors. Not like a phobia exactly but I just — I don't go."
+      },
+      {
+        "role": "assistant",
+        "content": "I'm not going to push. I'm just curious what it's like for you when you think about making an appointment."
+      },
+      {
+        "role": "user",
+        "content": "Like dread, honestly. My dad got diagnosed with something serious after a routine checkup and it kind of wrecked his life for two years even though he recovered fine in the end. I think part of me would rather not know."
+      },
+      {
+        "role": "assistant",
+        "content": "That fear of what you might find out makes a lot of sense given what your dad went through. What goes through your mind when you imagine actually picking up the phone to call?"
+      }
+    ],
+    "critical_turn": "Which sounds crazy when I say it out loud. Because obviously if something is wrong, catching it early is better. I know that. I work in healthcare admin, I literally process referrals for this stuff all day. But every time I go to book an appointment I just... close the browser. It's been four months of headaches and I'm Googling symptoms at two in the morning instead of going in, which is probably making it worse. And then I'll have a couple days where it's not so bad and I convince myself it was just stress and that seems to hold me for a while until it comes back.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence"
+    ],
+    "marker_annotations": {
+      "contradiction": "'Obviously if something is wrong, catching it early is better. I know that. I work in healthcare admin, I literally process referrals for this stuff all day' directly contradicts her behavior of closing the browser every time she attempts to book, sustained across four months of daily symptoms.",
+      "ambivalence": "Client cycles between fear-driven avoidance ('part of me would rather not know') and rational understanding of early detection, then uses symptom-free days to justify continued delay — simultaneously desiring relief and avoiding the action that would provide it."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client exhibits contradiction between professional knowledge of early detection benefits and sustained personal avoidance behavior; and ambivalence between the implicit desire to address her symptoms and the protective avoidance of a potential diagnosis.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-27",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I've got about fourteen thousand dollars in credit card debt and I feel sick about it constantly. Like physically sick."
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like it's really hanging over you. How long has this been building?"
+      },
+      {
+        "role": "user",
+        "content": "About three years I guess. I make decent money but somehow I'm always behind. It started after my divorce — I think I was just buying things to feel okay. New clothes, trips, dinners out."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like spending became a way to cope during a really painful time. What does it look like now, three years in?"
+      },
+      {
+        "role": "user",
+        "content": "Honestly not that different. I made a budget twice this year and stopped following it by like week two both times. I hate even looking at my bank account."
+      },
+      {
+        "role": "assistant",
+        "content": "So the awareness is there but something keeps getting in the way of sticking to a plan. What usually happens around week two?"
+      }
+    ],
+    "critical_turn": "I signed up for one of those budgeting apps last month. I literally have not opened it since I downloaded it. The thing is I know what I need to do, it's not complicated — spend less than you earn, right? But somehow every week something comes up. A birthday, a work happy hour, a trip I 'had' to take because everyone was going. And then I tell myself I'll do better next month, and I do mean it when I say it. But I also sort of already know in the back of my head that I probably won't.",
+    "markers_present": [
+      "contradiction",
+      "confusion"
+    ],
+    "marker_annotations": {
+      "contradiction": "'I do mean it when I say it' and 'I also sort of already know in the back of my head that I probably won't' appear within the same sentence — client simultaneously claims sincere intention to change and preemptively disbelieves her own commitment.",
+      "confusion": "'The thing is I know what I need to do, it's not complicated — spend less than you earn, right?' — client can fully articulate the solution yet cannot account for why clear, simple knowledge has consistently failed to produce behavioral change across multiple deliberate attempts."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client demonstrates contradiction between stating sincere monthly intentions and concurrently anticipating their failure; and confusion about why complete knowledge of a straightforward solution has not translated into change despite repeated conscious effort.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-28",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I've been taking care of my mother for about two years now. She had a stroke and she needs a lot of help."
+      },
+      {
+        "role": "assistant",
+        "content": "That's a tremendous amount of responsibility. How are you holding up through all of it?"
+      },
+      {
+        "role": "user",
+        "content": "Not great, honestly. I stopped going to the gym, I barely see friends, I had to turn down a job promotion because I couldn't handle the extra hours. I feel like my life is just on hold."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like you've set aside a lot of yourself. When you say your life is on hold, what does that mean for you?"
+      },
+      {
+        "role": "user",
+        "content": "Like I had this whole plan — I was going to move to Portland, there's a community of people I know there, a better job market for my field. That's just not happening now. Maybe not ever."
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds like a significant path that got set aside. How do you feel sitting with that?"
+      }
+    ],
+    "critical_turn": "But I mean, she's my mom. What am I supposed to do, put her in a facility? I've looked into them, some of them are actually really good, they'd take great care of her. But she'd see it as abandonment. And I would too, probably. She gave up so much for me when I was little. And the thing is she keeps telling me to live my life, she says it all the time. But then if I'm out for more than a few hours she calls and calls. So I don't know what the actual right thing is here. I just keep going because stopping and figuring it out seems harder than just continuing.",
+    "markers_present": [
+      "ambivalence",
+      "confusion"
+    ],
+    "marker_annotations": {
+      "ambivalence": "Client acknowledges that quality care facilities exist and 'they'd take great care of her' while simultaneously framing that option as emotionally impossible due to guilt — holding a realistic alternative and an internal block against it at the same time.",
+      "confusion": "'I don't know what the actual right thing is here' — client cannot reconcile her mother's repeated verbal encouragement to 'live your life' with her mother's behavior of calling repeatedly during absences, leaving her genuinely unable to identify a coherent course of action."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client exhibits ambivalence between self-preservation and filial obligation, with full awareness that alternatives exist but inability to access them emotionally; and confusion stemming from irreconcilable mixed messages that prevent her from determining a right path forward.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-29",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I've been really lonely since I moved here two years ago. Like genuinely, painfully lonely."
+      },
+      {
+        "role": "assistant",
+        "content": "Two years is a long time to carry that. Have you been able to connect with anyone here at all?"
+      },
+      {
+        "role": "user",
+        "content": "Not really. I have work acquaintances but nothing that's turned into anything real. I go home sometimes and realize I haven't had an actual conversation with another person all day."
+      },
+      {
+        "role": "assistant",
+        "content": "That sounds really isolating. Have you tried anything to meet people?"
+      },
+      {
+        "role": "user",
+        "content": "I downloaded some apps — meetup stuff, a couple social things. I always find a reason not to go. Either I'm too tired or I tell myself it'll be awkward or I wait until it's too late to register."
+      },
+      {
+        "role": "assistant",
+        "content": "So there's something that consistently pulls you back right at the point of actually going. What do you think that's about?"
+      }
+    ],
+    "critical_turn": "And then I sit home and feel awful about not going. Which is kind of stupid because I could have just gone. But also when I imagine actually being there I get this like, anticipatory dread, like it's going to be terrible and I'll stand there not knowing anyone and come home feeling worse. But I'm already feeling terrible at home. I don't know, I think part of me believes I'll meet people naturally somehow but I've been here two years and that hasn't happened so I don't know what I'm waiting for exactly.",
+    "markers_present": [
+      "contradiction",
+      "confusion"
+    ],
+    "marker_annotations": {
+      "contradiction": "'I'm already feeling terrible at home' — client is fully aware that her current emotional baseline is the very outcome she's trying to avoid by staying home, yet continues to choose it over the perceived risk of attending social events.",
+      "confusion": "'I don't know what I'm waiting for exactly' — client recognizes that her passive strategy of meeting people 'naturally' has not worked in two years but cannot identify what she expects will change or what condition she is waiting for before acting."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client demonstrates contradiction between her goal of connection and consistent avoidance of activities that would address it, despite acknowledging that inaction produces the exact distress she is trying to prevent; and confusion about what outcome she is waiting for before taking action.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  },
+  {
+    "id": "C-30",
+    "cluster": "avoidance_inaction",
+    "system_prompt": "You are providing emotional support in a counseling conversation. Respond naturally to the client.",
+    "conversation_history": [
+      {
+        "role": "user",
+        "content": "I've been writing a novel in secret for like six years. No one knows about it, not even my husband."
+      },
+      {
+        "role": "assistant",
+        "content": "Six years of carrying something completely alone — what's that like?"
+      },
+      {
+        "role": "user",
+        "content": "A little shameful, honestly. Like it's this embarrassing thing I do. I work in insurance, very practical job, very practical life. Writing a novel doesn't really fit."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like there's a part of you that doesn't quite belong in the life you've built. What does writing give you that the rest of your life doesn't?"
+      },
+      {
+        "role": "user",
+        "content": "Everything, honestly. I feel alive when I write. Like actually myself. The rest of the time I'm kind of just going through motions. My husband's happy, my boss thinks I'm great, everything looks fine from the outside."
+      },
+      {
+        "role": "assistant",
+        "content": "It sounds like writing holds something really essential for you. What gets in the way of it having more space in your life?"
+      }
+    ],
+    "critical_turn": "But I've never shown it to anyone. And it's been six years so it's not like I don't have material. I just keep editing the same chapters instead of finishing it. Because once it's done I'd have to actually do something with it and probably someone would read it and think it was terrible and that feels unsurvivable. Though I think about it literally every day. I've thought about leaving insurance to write full time, and then I think about my mortgage and I feel insane for even considering it. I don't actually want to give up the novel but I don't know if I can keep living like this either.",
+    "markers_present": [
+      "contradiction",
+      "ambivalence"
+    ],
+    "marker_annotations": {
+      "contradiction": "Client describes writing as making her feel 'alive' and 'actually myself' and thinks about it 'literally every day,' yet has not finished the manuscript in six years and actively avoids completion through recursive re-editing — contradicting the urgency and centrality she attributes to the work.",
+      "ambivalence": "'I don't actually want to give up the novel but I don't know if I can keep living like this either' — client explicitly names both sides of her bind with no resolution: she cannot abandon her creative identity and cannot sustain the double life as it stands."
+    },
+    "hill_rationale": "Per Hill (2020, Ch.11), the client exhibits contradiction between the profound meaning she assigns to writing and her sustained behavioral avoidance of completing it; and ambivalence between the need to pursue her creative identity and fear of the vulnerability that finishing and sharing the work would require.",
+    "condition": "challenge_prescribed",
+    "cluster_name": "avoidance_inaction"
+  }
+]

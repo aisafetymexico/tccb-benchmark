@@ -1,0 +1,65 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite the accompanying paper (preferred-citation below)."
+title: "TCCB: Therapeutic Challenge Competence Benchmark"
+version: "1.0.0"
+date-released: "2026-05-06"
+type: dataset
+abstract: >-
+  TCCB (Therapeutic Challenge Competence Benchmark) is a skill-specific
+  calibration benchmark for one therapeutic intervention — Hill's Challenge
+  (Helping Skills System Category 6). It comprises 170 single-turn clinical
+  scenarios (120 Challenge-prescribed across four thematic clusters and 50
+  validation-appropriate controls), the prompts used to elicit and judge
+  responses, 1,000 responses produced by claude-opus-4-6, and 3,000
+  classifications produced by three cross-family LLM judges (Claude Haiku,
+  Gemini 2.5 Flash, DeepSeek-Chat). It accompanies the ICAIMH 2026 paper
+  "Token Mimicry or Therapeutic Competence? Testing LLMs Against Hill's
+  Challenge Skill in Mental Health Support Scenarios."
+authors:
+  - family-names: "Pinelo Hau"
+    given-names: "Jason Maximiliano"
+    email: "mpinelo@aismx.org"
+    affiliation: "AI Safety México, Mérida, México"
+    orcid: "https://orcid.org/0009-0003-0779-4333"
+keywords:
+  - "LLM evaluation"
+  - "Challenge intervention"
+  - "skill-specific calibration"
+  - "Hill helping skills"
+  - "cross-family judging"
+  - "mental health AI safety"
+  - "psychotherapy process research"
+license:
+  - MIT
+  - CC-BY-4.0
+license-url: "https://opensource.org/licenses/MIT"
+repository-code: "https://github.com/aisafetymexico/tccb-benchmark"
+url: "https://aismx.org/tccb"
+preferred-citation:
+  type: conference-paper
+  title: "Token Mimicry or Therapeutic Competence? Testing LLMs Against Hill's Challenge Skill in Mental Health Support Scenarios"
+  authors:
+    - family-names: "Pinelo Hau"
+      given-names: "Jason Maximiliano"
+      email: "mpinelo@aismx.org"
+      affiliation: "AI Safety México, Mérida, México"
+      orcid: "https://orcid.org/0009-0003-0779-4333"
+  year: 2026
+  month: 7
+  conference:
+    name: "International Conference on Artificial Intelligence for Mental Health (ICAIMH 2026)"
+    city: "Mérida"
+    country: "MX"
+    date-start: "2026-07-01"
+    date-end: "2026-07-03"
+  collection-title: "Communications in Computer and Information Science"
+  collection-type: "series"
+  publisher:
+    name: "Springer"
+  keywords:
+    - "LLM evaluation"
+    - "Challenge intervention"
+    - "skill-specific calibration"
+    - "Hill helping skills"
+    - "cross-family judging"
+    - "mental health AI safety"

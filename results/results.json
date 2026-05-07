@@ -1,0 +1,668 @@
+{
+  "meta": {
+    "n_total": 1000,
+    "n_default_challenge": 600,
+    "n_override": 150,
+    "n_ctrl_original": 50,
+    "n_ctrl_v2": 200,
+    "n_ctrl_combined": 250,
+    "judges": [
+      "haiku",
+      "gemini",
+      "deepseek"
+    ],
+    "binary_collapse": "C -> Challenge; S/O -> not-Challenge",
+    "kappa_bands": "Landis & Koch (1977)"
+  },
+  "tcr_by_condition": {
+    "default_challenge": {
+      "haiku": {
+        "n": 600,
+        "k_challenge": 597,
+        "tcr": 0.995,
+        "wilson_ci_lo": 0.9854037936547143,
+        "wilson_ci_hi": 0.9982981223417221
+      },
+      "gemini": {
+        "n": 600,
+        "k_challenge": 599,
+        "tcr": 0.9983333333333333,
+        "wilson_ci_lo": 0.9906204395238613,
+        "wilson_ci_hi": 0.9997057317991506
+      },
+      "deepseek": {
+        "n": 600,
+        "k_challenge": 588,
+        "tcr": 0.98,
+        "wilson_ci_lo": 0.9653699456538909,
+        "wilson_ci_hi": 0.9885228213729564
+      }
+    },
+    "override": {
+      "haiku": {
+        "n": 150,
+        "k_challenge": 150,
+        "tcr": 1.0,
+        "wilson_ci_lo": 0.9750297556319235,
+        "wilson_ci_hi": 1.0000000000000002
+      },
+      "gemini": {
+        "n": 150,
+        "k_challenge": 150,
+        "tcr": 1.0,
+        "wilson_ci_lo": 0.9750297556319235,
+        "wilson_ci_hi": 1.0000000000000002
+      },
+      "deepseek": {
+        "n": 150,
+        "k_challenge": 150,
+        "tcr": 1.0,
+        "wilson_ci_lo": 0.9750297556319235,
+        "wilson_ci_hi": 1.0000000000000002
+      }
+    },
+    "ctrl_original": {
+      "haiku": {
+        "n": 50,
+        "k_challenge": 33,
+        "tcr": 0.66,
+        "wilson_ci_lo": 0.521538260502326,
+        "wilson_ci_hi": 0.775630507774999
+      },
+      "gemini": {
+        "n": 50,
+        "k_challenge": 38,
+        "tcr": 0.76,
+        "wilson_ci_lo": 0.6258731624205707,
+        "wilson_ci_hi": 0.8570260860300827
+      },
+      "deepseek": {
+        "n": 50,
+        "k_challenge": 15,
+        "tcr": 0.3,
+        "wilson_ci_lo": 0.19103553500880943,
+        "wilson_ci_hi": 0.437503504644534
+      }
+    },
+    "ctrl_v2": {
+      "haiku": {
+        "n": 200,
+        "k_challenge": 141,
+        "tcr": 0.705,
+        "wilson_ci_lo": 0.6384128547538122,
+        "wilson_ci_hi": 0.7638605614315084
+      },
+      "gemini": {
+        "n": 200,
+        "k_challenge": 158,
+        "tcr": 0.79,
+        "wilson_ci_lo": 0.7283538314009754,
+        "wilson_ci_hi": 0.8407158793002101
+      },
+      "deepseek": {
+        "n": 200,
+        "k_challenge": 80,
+        "tcr": 0.4,
+        "wilson_ci_lo": 0.33460578566807336,
+        "wilson_ci_hi": 0.46916327960737997
+      }
+    },
+    "ctrl_combined": {
+      "haiku": {
+        "n": 250,
+        "k_challenge": 174,
+        "tcr": 0.696,
+        "wilson_ci_lo": 0.6363702875665094,
+        "wilson_ci_hi": 0.7496974590312762
+      },
+      "gemini": {
+        "n": 250,
+        "k_challenge": 196,
+        "tcr": 0.784,
+        "wilson_ci_lo": 0.7288965817807945,
+        "wilson_ci_hi": 0.830507704105793
+      },
+      "deepseek": {
+        "n": 250,
+        "k_challenge": 95,
+        "tcr": 0.38,
+        "wilson_ci_lo": 0.32207737189789326,
+        "wilson_ci_hi": 0.44155461998101336
+      }
+    }
+  },
+  "kappa_pairwise": {
+    "existing_800": {
+      "haiku_vs_gemini": {
+        "n": 800,
+        "agreement": 0.98625,
+        "kappa": 0.6599690880989181,
+        "interpretation": "substantial"
+      },
+      "haiku_vs_deepseek": {
+        "n": 800,
+        "agreement": 0.95625,
+        "kappa": 0.4586233565351895,
+        "interpretation": "moderate"
+      },
+      "gemini_vs_deepseek": {
+        "n": 800,
+        "agreement": 0.9525,
+        "kappa": 0.3501218521527213,
+        "interpretation": "fair"
+      }
+    },
+    "new_ctrl_200": {
+      "haiku_vs_gemini": {
+        "n": 200,
+        "agreement": 0.795,
+        "kappa": 0.4620834426659669,
+        "interpretation": "moderate"
+      },
+      "haiku_vs_deepseek": {
+        "n": 200,
+        "agreement": 0.635,
+        "kappa": 0.3253234750462106,
+        "interpretation": "fair"
+      },
+      "gemini_vs_deepseek": {
+        "n": 200,
+        "agreement": 0.56,
+        "kappa": 0.2114695340501792,
+        "interpretation": "fair"
+      }
+    },
+    "combined_1000": {
+      "haiku_vs_gemini": {
+        "n": 1000,
+        "agreement": 0.948,
+        "kappa": 0.5850291277631474,
+        "interpretation": "moderate"
+      },
+      "haiku_vs_deepseek": {
+        "n": 1000,
+        "agreement": 0.892,
+        "kappa": 0.5082280728915278,
+        "interpretation": "moderate"
+      },
+      "gemini_vs_deepseek": {
+        "n": 1000,
+        "agreement": 0.874,
+        "kappa": 0.3812306634582331,
+        "interpretation": "fair"
+      }
+    },
+    "default_600": {
+      "haiku_vs_gemini": {
+        "n": 600,
+        "agreement": 0.9966666666666667,
+        "kappa": 0.4987468671679198,
+        "interpretation": "moderate"
+      },
+      "haiku_vs_deepseek": {
+        "n": 600,
+        "agreement": 0.975,
+        "kappa": -0.008064516129032251,
+        "interpretation": "poor (worse than chance)"
+      },
+      "gemini_vs_deepseek": {
+        "n": 600,
+        "agreement": 0.9783333333333334,
+        "kappa": -0.0030864197530864335,
+        "interpretation": "poor (worse than chance)"
+      }
+    },
+    "override_150": {
+      "haiku_vs_gemini": {
+        "n": 150,
+        "agreement": 1.0,
+        "kappa": NaN,
+        "interpretation": "almost-perfect"
+      },
+      "haiku_vs_deepseek": {
+        "n": 150,
+        "agreement": 1.0,
+        "kappa": NaN,
+        "interpretation": "almost-perfect"
+      },
+      "gemini_vs_deepseek": {
+        "n": 150,
+        "agreement": 1.0,
+        "kappa": NaN,
+        "interpretation": "almost-perfect"
+      }
+    },
+    "ctrl_combined_250": {
+      "haiku_vs_gemini": {
+        "n": 250,
+        "agreement": 0.8,
+        "kappa": 0.48542730116910926,
+        "interpretation": "moderate"
+      },
+      "haiku_vs_deepseek": {
+        "n": 250,
+        "agreement": 0.628,
+        "kappa": 0.3199766013454226,
+        "interpretation": "fair"
+      },
+      "gemini_vs_deepseek": {
+        "n": 250,
+        "agreement": 0.548,
+        "kappa": 0.20444945085891297,
+        "interpretation": "fair"
+      }
+    }
+  },
+  "per_scenario_distribution": {
+    "default_challenge": {
+      "haiku": {
+        "n_scenarios": 120,
+        "k_to_count": {
+          "3": 1,
+          "4": 1,
+          "5": 118
+        },
+        "mean_runs_per_scenario": 5.0
+      },
+      "gemini": {
+        "n_scenarios": 120,
+        "k_to_count": {
+          "4": 1,
+          "5": 119
+        },
+        "mean_runs_per_scenario": 5.0
+      },
+      "deepseek": {
+        "n_scenarios": 120,
+        "k_to_count": {
+          "2": 1,
+          "3": 1,
+          "4": 7,
+          "5": 111
+        },
+        "mean_runs_per_scenario": 5.0
+      }
+    },
+    "override": {
+      "haiku": {
+        "n_scenarios": 30,
+        "k_to_count": {
+          "5": 30
+        },
+        "mean_runs_per_scenario": 5.0
+      },
+      "gemini": {
+        "n_scenarios": 30,
+        "k_to_count": {
+          "5": 30
+        },
+        "mean_runs_per_scenario": 5.0
+      },
+      "deepseek": {
+        "n_scenarios": 30,
+        "k_to_count": {
+          "5": 30
+        },
+        "mean_runs_per_scenario": 5.0
+      }
+    },
+    "ctrl_original": {
+      "haiku": {
+        "n_scenarios": 10,
+        "k_to_count": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 3,
+          "5": 3
+        },
+        "mean_runs_per_scenario": 5.0
+      },
+      "gemini": {
+        "n_scenarios": 10,
+        "k_to_count": {
+          "0": 1,
+          "2": 2,
+          "4": 1,
+          "5": 6
+        },
+        "mean_runs_per_scenario": 5.0
+      },
+      "deepseek": {
+        "n_scenarios": 10,
+        "k_to_count": {
+          "0": 5,
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "mean_runs_per_scenario": 5.0
+      }
+    },
+    "ctrl_v2": {
+      "haiku": {
+        "n_scenarios": 40,
+        "k_to_count": {
+          "0": 3,
+          "1": 4,
+          "2": 3,
+          "3": 5,
+          "4": 9,
+          "5": 16
+        },
+        "mean_runs_per_scenario": 5.0
+      },
+      "gemini": {
+        "n_scenarios": 40,
+        "k_to_count": {
+          "0": 2,
+          "1": 1,
+          "2": 6,
+          "3": 2,
+          "4": 6,
+          "5": 23
+        },
+        "mean_runs_per_scenario": 5.0
+      },
+      "deepseek": {
+        "n_scenarios": 40,
+        "k_to_count": {
+          "0": 10,
+          "1": 8,
+          "2": 9,
+          "3": 4,
+          "4": 3,
+          "5": 6
+        },
+        "mean_runs_per_scenario": 5.0
+      }
+    },
+    "ctrl_combined": {
+      "haiku": {
+        "n_scenarios": 50,
+        "k_to_count": {
+          "0": 4,
+          "1": 5,
+          "2": 4,
+          "3": 6,
+          "4": 12,
+          "5": 19
+        },
+        "mean_runs_per_scenario": 5.0
+      },
+      "gemini": {
+        "n_scenarios": 50,
+        "k_to_count": {
+          "0": 3,
+          "1": 1,
+          "2": 8,
+          "3": 2,
+          "4": 7,
+          "5": 29
+        },
+        "mean_runs_per_scenario": 5.0
+      },
+      "deepseek": {
+        "n_scenarios": 50,
+        "k_to_count": {
+          "0": 15,
+          "1": 9,
+          "2": 10,
+          "3": 5,
+          "4": 4,
+          "5": 7
+        },
+        "mean_runs_per_scenario": 5.0
+      }
+    }
+  },
+  "fisher_default_vs_override": {
+    "haiku": {
+      "table": {
+        "default_C": 597,
+        "default_notC": 3,
+        "override_C": 150,
+        "override_notC": 0
+      },
+      "default_tcr": 0.995,
+      "override_tcr": 1.0,
+      "delta": -0.0050000000000000044,
+      "odds_ratio": 0.0,
+      "p_value": 1.0,
+      "alpha": 0.05,
+      "significant": false,
+      "honest_call": "p = 1.0000: NOT significant at alpha=0.05"
+    },
+    "gemini": {
+      "table": {
+        "default_C": 599,
+        "default_notC": 1,
+        "override_C": 150,
+        "override_notC": 0
+      },
+      "default_tcr": 0.9983333333333333,
+      "override_tcr": 1.0,
+      "delta": -0.0016666666666667052,
+      "odds_ratio": 0.0,
+      "p_value": 1.0,
+      "alpha": 0.05,
+      "significant": false,
+      "honest_call": "p = 1.0000: NOT significant at alpha=0.05"
+    },
+    "deepseek": {
+      "table": {
+        "default_C": 588,
+        "default_notC": 12,
+        "override_C": 150,
+        "override_notC": 0
+      },
+      "default_tcr": 0.98,
+      "override_tcr": 1.0,
+      "delta": -0.020000000000000018,
+      "odds_ratio": 0.0,
+      "p_value": 0.13815674416808105,
+      "alpha": 0.05,
+      "significant": false,
+      "honest_call": "p = 0.1382: NOT significant at alpha=0.05"
+    }
+  },
+  "irr_summary_table": [
+    {
+      "slice": "existing_800",
+      "pair": "haiku_vs_gemini",
+      "n": 800,
+      "pct_agreement": 98.62,
+      "cohen_kappa": 0.66,
+      "interpretation": "substantial"
+    },
+    {
+      "slice": "existing_800",
+      "pair": "haiku_vs_deepseek",
+      "n": 800,
+      "pct_agreement": 95.62,
+      "cohen_kappa": 0.4586,
+      "interpretation": "moderate"
+    },
+    {
+      "slice": "existing_800",
+      "pair": "gemini_vs_deepseek",
+      "n": 800,
+      "pct_agreement": 95.25,
+      "cohen_kappa": 0.3501,
+      "interpretation": "fair"
+    },
+    {
+      "slice": "new_ctrl_200",
+      "pair": "haiku_vs_gemini",
+      "n": 200,
+      "pct_agreement": 79.5,
+      "cohen_kappa": 0.4621,
+      "interpretation": "moderate"
+    },
+    {
+      "slice": "new_ctrl_200",
+      "pair": "haiku_vs_deepseek",
+      "n": 200,
+      "pct_agreement": 63.5,
+      "cohen_kappa": 0.3253,
+      "interpretation": "fair"
+    },
+    {
+      "slice": "new_ctrl_200",
+      "pair": "gemini_vs_deepseek",
+      "n": 200,
+      "pct_agreement": 56.0,
+      "cohen_kappa": 0.2115,
+      "interpretation": "fair"
+    },
+    {
+      "slice": "combined_1000",
+      "pair": "haiku_vs_gemini",
+      "n": 1000,
+      "pct_agreement": 94.8,
+      "cohen_kappa": 0.585,
+      "interpretation": "moderate"
+    },
+    {
+      "slice": "combined_1000",
+      "pair": "haiku_vs_deepseek",
+      "n": 1000,
+      "pct_agreement": 89.2,
+      "cohen_kappa": 0.5082,
+      "interpretation": "moderate"
+    },
+    {
+      "slice": "combined_1000",
+      "pair": "gemini_vs_deepseek",
+      "n": 1000,
+      "pct_agreement": 87.4,
+      "cohen_kappa": 0.3812,
+      "interpretation": "fair"
+    },
+    {
+      "slice": "default_600",
+      "pair": "haiku_vs_gemini",
+      "n": 600,
+      "pct_agreement": 99.67,
+      "cohen_kappa": 0.4987,
+      "interpretation": "moderate"
+    },
+    {
+      "slice": "default_600",
+      "pair": "haiku_vs_deepseek",
+      "n": 600,
+      "pct_agreement": 97.5,
+      "cohen_kappa": -0.0081,
+      "interpretation": "poor (worse than chance)"
+    },
+    {
+      "slice": "default_600",
+      "pair": "gemini_vs_deepseek",
+      "n": 600,
+      "pct_agreement": 97.83,
+      "cohen_kappa": -0.0031,
+      "interpretation": "poor (worse than chance)"
+    },
+    {
+      "slice": "override_150",
+      "pair": "haiku_vs_gemini",
+      "n": 150,
+      "pct_agreement": 100.0,
+      "cohen_kappa": null,
+      "interpretation": "almost-perfect"
+    },
+    {
+      "slice": "override_150",
+      "pair": "haiku_vs_deepseek",
+      "n": 150,
+      "pct_agreement": 100.0,
+      "cohen_kappa": null,
+      "interpretation": "almost-perfect"
+    },
+    {
+      "slice": "override_150",
+      "pair": "gemini_vs_deepseek",
+      "n": 150,
+      "pct_agreement": 100.0,
+      "cohen_kappa": null,
+      "interpretation": "almost-perfect"
+    },
+    {
+      "slice": "ctrl_combined_250",
+      "pair": "haiku_vs_gemini",
+      "n": 250,
+      "pct_agreement": 80.0,
+      "cohen_kappa": 0.4854,
+      "interpretation": "moderate"
+    },
+    {
+      "slice": "ctrl_combined_250",
+      "pair": "haiku_vs_deepseek",
+      "n": 250,
+      "pct_agreement": 62.8,
+      "cohen_kappa": 0.32,
+      "interpretation": "fair"
+    },
+    {
+      "slice": "ctrl_combined_250",
+      "pair": "gemini_vs_deepseek",
+      "n": 250,
+      "pct_agreement": 54.8,
+      "cohen_kappa": 0.2044,
+      "interpretation": "fair"
+    }
+  ],
+  "triple_agreement": {
+    "combined_1000": {
+      "n": 1000,
+      "all_challenge": 822,
+      "all_not_challenge": 35,
+      "two_one_split": 143,
+      "all_disagree_note": "With binary Challenge/not-Challenge collapse, three-way disagreement is impossible; 2-1 splits cover every non-unanimous case.",
+      "pct_unanimous": 0.857
+    },
+    "existing_800": {
+      "n": 800,
+      "all_challenge": 749,
+      "all_not_challenge": 9,
+      "two_one_split": 42,
+      "all_disagree_note": "With binary Challenge/not-Challenge collapse, three-way disagreement is impossible; 2-1 splits cover every non-unanimous case.",
+      "pct_unanimous": 0.9475
+    },
+    "new_ctrl_200": {
+      "n": 200,
+      "all_challenge": 73,
+      "all_not_challenge": 26,
+      "two_one_split": 101,
+      "all_disagree_note": "With binary Challenge/not-Challenge collapse, three-way disagreement is impossible; 2-1 splits cover every non-unanimous case.",
+      "pct_unanimous": 0.495
+    },
+    "default_600": {
+      "n": 600,
+      "all_challenge": 585,
+      "all_not_challenge": 0,
+      "two_one_split": 15,
+      "all_disagree_note": "With binary Challenge/not-Challenge collapse, three-way disagreement is impossible; 2-1 splits cover every non-unanimous case.",
+      "pct_unanimous": 0.975
+    },
+    "override_150": {
+      "n": 150,
+      "all_challenge": 150,
+      "all_not_challenge": 0,
+      "two_one_split": 0,
+      "all_disagree_note": "With binary Challenge/not-Challenge collapse, three-way disagreement is impossible; 2-1 splits cover every non-unanimous case.",
+      "pct_unanimous": 1.0
+    },
+    "ctrl_combined_250": {
+      "n": 250,
+      "all_challenge": 87,
+      "all_not_challenge": 35,
+      "two_one_split": 128,
+      "all_disagree_note": "With binary Challenge/not-Challenge collapse, three-way disagreement is impossible; 2-1 splits cover every non-unanimous case.",
+      "pct_unanimous": 0.488
+    }
+  }
+}

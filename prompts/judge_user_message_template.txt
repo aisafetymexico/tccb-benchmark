@@ -1,0 +1,32 @@
+=== CONVERSATION HISTORY ===
+{conversation_history}
+
+=== CRITICAL CLIENT UTTERANCE ===
+CLIENT: {critical_turn}
+
+=== HELPER'S RESPONSE ===
+HELPER: {response_text}
+
+
+--- NOTES ON STRUCTURE ---
+
+The judge user message is constructed per response by the judge prompt module
+used in the experiment. It joins the following sections with newlines:
+
+1. Header line: "=== CONVERSATION HISTORY ==="
+   Followed by each prior turn rendered as:
+       {ROLE_UPPERCASE}: {content}
+   where role is "CLIENT" or "ASSISTANT" (uppercased from scenario["conversation_history"]).
+
+2. Blank line, then header: "=== CRITICAL CLIENT UTTERANCE ==="
+   Followed by:
+       CLIENT: {scenario["critical_turn"]}
+
+3. Blank line, then header: "=== HELPER'S RESPONSE ==="
+   Followed by:
+       HELPER: {opus_response}
+
+Placeholders used above:
+- {conversation_history} — the rendered list of prior turns, one per line ("CLIENT: ..." / "ASSISTANT: ...")
+- {critical_turn}       — the client's critical utterance being judged
+- {response_text}       — the subject model's full response to the critical turn
