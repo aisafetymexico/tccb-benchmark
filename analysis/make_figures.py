@@ -26,6 +26,14 @@ JUDGES = ["haiku", "gemini", "deepseek"]
 JUDGE_COLORS = {"haiku": "#4878A8", "gemini": "#E8853A", "deepseek": "#7BAA6E"}
 JUDGE_LABELS = {"haiku": "Claude Haiku", "gemini": "Gemini 2.5 Flash", "deepseek": "DeepSeek-Chat"}
 
+# Colorblind-safe palette (Wong/Tol) used by the paper's fig2.
+FIG2_JUDGE_COLORS = {"haiku": "#0173B2", "gemini": "#DE8F05", "deepseek": "#029E73"}
+
+FIG2_PANELS = [
+    ("default_challenge", "Challenge-prescribed scenarios (n = 120)"),
+    ("ctrl_combined",     "Validation-appropriate scenarios (n = 50)"),
+]
+
 
 def _save(fig: plt.Figure, path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -78,30 +86,64 @@ def fig1_tcr_by_judge(results: dict, output_path: Path) -> None:
 
 
 def fig2_per_scenario_distribution(results: dict, output_path: Path) -> None:
-    """Per-scenario challenge consistency on the combined control bucket (k/5 runs)."""
-    dist_haiku = results["per_scenario_distribution"]["ctrl_combined"]["haiku"]
-    histogram = dist_haiku["k_to_count"]
+    """Two-panel cross-judge per-scenario distribution.
 
-    x_values = list(range(6))
-    counts = [histogram.get(str(k), 0) for k in x_values]
+    Left  — Challenge-prescribed scenarios (n=120 per judge)
+    Right — Validation-appropriate scenarios (n=50 per judge)
+    Each panel: grouped bars (Haiku/Gemini/DeepSeek) over k = 0..5 Challenge runs.
+    """
+    distrib = results["per_scenario_distribution"]
 
-    fig, ax = plt.subplots(figsize=(6, 4))
-    bars = ax.bar(x_values, counts, color=JUDGE_COLORS["haiku"],
-                  edgecolor="black", linewidth=0.8, width=0.6)
+    fig, axes = plt.subplots(1, 2, figsize=(10.5, 4.4), sharey=False)
 
-    ax.set_xlabel("Challenge Runs (out of 5)")
-    ax.set_ylabel("Number of Scenarios")
-    ax.set_title("Per-Scenario Challenge Consistency (Control bucket, Haiku judge)")
-    ax.set_xticks(x_values)
-    ax.set_xticklabels([str(v) for v in x_values])
+    bar_width = 0.27
+    x_positions = np.arange(6)
 
-    for bar, count in zip(bars, counts):
-        if count > 0:
-            ax.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 0.4,
-                    str(count), ha="center", va="bottom", fontsize=11, fontweight="bold")
+    for ax, (cond_key, panel_title) in zip(axes, FIG2_PANELS):
+        max_count = 0
+        for i, judge in enumerate(JUDGES):
+            k_to_count = distrib[cond_key][judge]["k_to_count"]
+            counts = [int(k_to_count.get(str(k), 0)) for k in range(6)]
+            max_count = max(max_count, max(counts))
+            offsets = (i - 1) * bar_width
+            bars = ax.bar(
+                x_positions + offsets,
+                counts,
+                bar_width,
+                color=FIG2_JUDGE_COLORS[judge],
+                edgecolor="black",
+                linewidth=0.5,
+                label=JUDGE_LABELS[judge],
+            )
+            for bar, c in zip(bars, counts):
+                if c > 0:
+                    ax.text(
+                        bar.get_x() + bar.get_width() / 2,
+                        bar.get_height() + max(0.5, max_count * 0.012),
+                        str(c),
+                        ha="center",
+                        va="bottom",
+                        fontsize=8,
+                    )
 
-    ax.set_ylim(0, max(counts) * 1.15 if counts and max(counts) else 1)
-    fig.tight_layout()
+        ax.set_xticks(x_positions)
+        ax.set_xticklabels([str(v) for v in range(6)])
+        ax.set_xlabel("Number of Challenge runs (out of 5)")
+        ax.set_title(panel_title, fontsize=11)
+        ax.set_ylim(0, max_count * 1.18)
+        ax.grid(axis="x", visible=False)
+
+    axes[0].set_ylabel("Number of scenarios")
+    axes[1].set_ylabel("Number of scenarios")
+
+    handles, labels = axes[0].get_legend_handles_labels()
+    fig.legend(
+        handles, labels,
+        loc="lower center", ncol=3, frameon=True, framealpha=0.95,
+        bbox_to_anchor=(0.5, -0.02), fontsize=10,
+    )
+
+    fig.tight_layout(rect=(0, 0.05, 1, 1))
     _save(fig, output_path)
 
 
